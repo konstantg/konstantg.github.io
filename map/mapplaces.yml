@@ -1,0 +1,297 @@
+events:
+- title: false
+  titleurl: false
+  event: "ARCADES 2nd Software & Industrial Workshop, in Cambridge"
+  eventurl: http://arcades-network.eu/index.php/event/2nd-software-industrial-workshop-in-cambridge/
+  location: "Cambridge, UK"
+  datetext: January 28 - 31, 2019
+  dateend: Jan 31, 2019
+  latlng: {lat: 52.202541, lng: 0.131240}
+
+- title: false
+  titleurl: false
+  event: "Research Secondment at SINTEF"
+  eventurl: https://www.sintef.no/en/
+  location: "Oslo, Norway"
+  datetext: August 01 - September 30, 2018
+  dateend: Sep 30, 2018
+  latlng: {lat: 59.913869, lng: 10.752245}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Doctoral School II and ESR Days in Barcelona"
+  eventurl: http://arcades-network.eu/index.php/event/arcades-doctoral-school-ii-and-esr-days-in-barcelona/
+  location: "Barcelona, Spain"
+  datetext: September 03 - 07, 2018
+  dateend: Sep 07, 2018
+  latlng: {lat: 41.384466, lng: 2.174515}
+
+- title: "Optimizing B-spline surfaces for developability and paneling architectural surfaces"
+  titleurl: false
+  event: "Solid and Physical Modeling 2018"
+  eventurl: https://wp.bcamath.org/spm2018/
+  location: "Bilbao, Spain"
+  datetext: June 11 - 13, 2018
+  dateend: Jun 13, 2018
+  latlng: {lat: 43.26271, lng: -2.92528}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Learning Week II: Growth & Harvest"
+  eventurl: http://arcades-network.eu/index.php/event/learning-week-ii/
+  location: "Sophia-Antipolis, France"
+  datetext: March 19 - 23, 2018
+  dateend: Mar 23, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: false
+  titleurl: false
+  event: "Research Secondment at INRIA Sophia-Antipolis"
+  eventurl: https://www.inria.fr/en/centre/sophia
+  location: "Sophia-Antipolis, France"
+  datetext: "March 01 - May 31, 2018"
+  dateend: May 31, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: "Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces"
+  titleurl: false
+  event: "AROMATH Seminar"
+  eventurl: https://team.inria.fr/aromath/seminars/?mc_id=38
+  location: "Sophia-Antipolis, France"
+  datetext: "May 30, 2018"
+  dateend: May 30, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: "Architectural Geometry in Practice"
+  titleurl: false
+  event: "Inria PhD Seminar"
+  eventurl: https://phd-seminars-sam.inria.fr/program/?mc_id=45
+  location: "Sophia-Antipolis, France"
+  datetext: May 28, 2018
+  dateend: May 28, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: false
+  titleurl: false
+  event: "ARCADES First Software & Industrial Workshop, and Midterm Review, in Athens"
+  eventurl: http://arcades-network.eu/index.php/event/athens-school/
+  location: "Athens, Greece"
+  datetext: "November 27 - December 01, 2017"
+  dateend: Dec 01, 2017
+  latlng: {lat: 37.9838096, lng: 23.7275388}
+
+- title: "<em>attending</em>"
+  titleurl: false
+  event: " Symposium on Geometry and Computational Design 4"
+  eventurl: http://gcd.tuwien.ac.at/?p=1175
+  location: "Vienna, Austria"
+  datetext: "November 17, 2017"
+  dateend: Nov 17, 2017
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+- title: false
+  titleurl: false
+  event: "Geometry Workshop in Obergurgl 2017"
+  eventurl: http://www.geometrie.tugraz.at/events/og2017.html
+  location: "Obergurgl, Austria"
+  datetext: "September 21 - 26, 2017"
+  dateend: Sep 26, 2017
+  latlng: {lat: 46.8702519, lng: 11.0269261}
+
+- title: "Architectural Geometry in Practice"
+  titleurl: http://meetings.siam.org/sess/dsp_talk.cfm?p=87538
+  event: "SIAM Conference on Industrial and Applied Geometry"
+  eventurl: http://www.siam.org/meetings/gd17/
+  location: "Pittsburgh, USA"
+  datetext: "July 10 - 12, 2017"
+  dateend: Jul 12, 2017
+  latlng: {lat: 40.4406248, lng: -79.9958864}
+
+- title: "Interpolation of syzygies for implicit matrix representations"
+  titleurl: https://hal.inria.fr/hal-01421866
+  event: "International Conference on Algebraic Informatics 2017"
+  eventurl: http://www.cargo.wlu.ca/CAI2017/
+  location: Kalamata, Greece
+  datetext: June 25 - 28, 2017
+  dateend: Jun 28, 2017
+  latlng: {lat: 37.0422371, lng: 22.1141264}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Learning Week I: Opportunity Recognition"
+  eventurl: http://arcades-network.eu/index.php/event/learning-week-i/
+  location: Sophia-Antipolis, France
+  datetext: April 03 - 07, 2017
+  dateend: Apr 07, 2017
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Doctoral School in Oslo"
+  eventurl: http://arcades-network.eu/index.php/event/arcades-doctoral-school-in-oslo/
+  location: Oslo, Norway
+  datetext: November 28 - December 02, 2016
+  dateend: Dec 02, 2016
+  latlng: {lat: 59.913869, lng: 10.752245}
+
+- title: "<em>attending</em>"
+  titleurl: false
+  event: " Symposium on Geometry and Computational Design 3"
+  eventurl: http://gcd.tuwien.ac.at/?p=695
+  location: "Vienna, Austria"
+  datetext: "November 18, 2017"
+  dateend: Nov 18, 2016
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+
+- title: "<em>attending</em>"
+  titleurl: false
+  event: "Advances in Architectural Geometry 2016"
+  eventurl: http://www.aag2016.ch/
+  location: "Zürich, Switzerland"
+  datetext: September 09 - 13, 2016
+  dateend: Sep 13, 2016
+  latlng: {lat: 47.376887, lng: 8.541694}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Workshop: Kickoff and Recruitment Event"
+  eventurl: http://arcades-network.eu/index.php/event/arcades-kickoff-event/
+  location: Vienna, Austria
+  datetext: April 25 - 27, 2016
+  dateend: Apr 27, 2016
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+
+
+
+travel:
+- location: "Barcelona, Spain"
+  latlng: {lat: 41.385063, lng: 2.173404}
+
+- location: "Bergen, Norway"
+  latlng: {lat: 60.391262, lng: 5.322054}
+
+- location: "Stavanger, Norway"
+  latlng: {lat: 58.964432, lng: 5.726250}
+
+- location: "Bilbao, Spain"
+  latlng: {lat: 43.26271, lng: -2.92528}
+
+- location: "Monaco"
+  latlng: {lat: 43.738418, lng: 7.424616}
+
+- location: "Ventimiglia, Italy"
+  latlng: {lat: 43.791237, lng: 7.607586}
+
+- location: "Bregenz, Austria"
+  latlng: {lat: 47.50075, lng: 9.742309999999975}
+
+- location: "Sankt Gallenkirch, Austria"
+  latlng: {lat: 47.0205452, lng: 9.974036999999953}
+
+- location: "Zámostí-Blata, Czech Republic"
+  latlng: {lat: 50.4707983, lng: 15.26402840000003}
+
+- location: "Obergurgl, Austria"
+  latlng: {lat: 46.8702519, lng: 11.0269261}
+
+- location: "Pittsburgh, USA"
+  latlng: {lat: 40.4406248, lng: -79.9958864}
+
+- location: "New York City, USA"
+  latlng: {lat: 40.7127, lng: -74.0059}
+
+- location: "Boston, USA"
+  latlng: {lat: 42.358056, lng: -71.063611}
+
+- location: "Washington DC, USA"
+  latlng: {lat: 38.904722, lng: -77.016389}
+
+- location: "Philadelphia, USA"
+  latlng: {lat: 39.95, lng: -75.166667}
+
+- location: "Amsterdam, Netherlands"
+  latlng: {lat: 52.370216, lng: 4.895168}
+
+- location: "Rotterdam, Netherlands"
+  latlng: {lat: 51.916667, lng: 4.5}
+
+- location: "Paris, France"
+  latlng: {lat: 48.856614, lng: 2.352222}
+
+- location: "Antibes, France"
+  latlng: {lat: 43.580418, lng: 7.125102}
+
+- location: "Nice, France"
+  latlng: {lat: 43.710173, lng: 7.261953}
+
+- location: "London, United Kingdom"
+  latlng: {lat: 51.507351, lng: -0.127758}
+
+- location: "Karlsruhe, Germany"
+  latlng: {lat: 49.006890, lng: 8.403653}
+
+- location: "Tashkent, Uzbekistan"
+  latlng: {lat: 41.299496, lng: 69.240073}
+
+- location: "Moscow, Russia"
+  latlng: {lat: 55.755826, lng: 37.617300}
+
+- location: "Saint Petersburg, Russia"
+  latlng: {lat: 59.934280, lng: 30.335099}
+
+- location: "Volsk, Russia"
+  latlng: {lat: 52.049708, lng: 47.369227}
+
+- location: "Saratov, Russia"
+  latlng: {lat: 51.592365, lng: 45.960803}
+
+- location: "Zürich, Switzerland"
+  latlng: {lat: 47.376887, lng: 8.541694}
+
+- location: "Salzburg, Austria"
+  latlng: {lat: 47.809490, lng: 13.055010}
+
+- location: "Vienna, Austria"
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+- location: "Oslo, Norway"
+  latlng: {lat: 59.913869, lng: 10.752245}
+
+- location: "Sophia-Antipolis, France"
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- location: "Alberobello, Italy"
+  latlng: {lat: 40.786423, lng: 17.240930}
+
+
+
+
+greece:
+- location: "Paros, Greece"
+  latlng: {lat: 37.085394, lng: 25.151534}
+
+- location: "Andros, Greece"
+  latlng: {lat: 37.838147, lng: 24.938594}
+
+- location: "Rethimno, Greece"
+  latlng: {lat: 35.364362, lng: 24.482155}
+
+- location: "Chania, Greece"
+  latlng: {lat: 35.513830, lng: 24.018037}
+
+- location: "Heraklion, Greece"
+  latlng: {lat: 35.338735, lng: 25.144213}
+
+- location: "Naxos, Greece"
+  latlng: {lat: 37.103566, lng: 25.377673}
+
+- location: "Koufonisia, Greece"
+  latlng: {lat: 36.9339236, lng: 25.596215}
+
+- location: "Milos, Greece"
+  latlng: {lat: 36.691446, lng: 24.393566}
+
+#- location: ""
+#  latlng: {lat: , lng: }

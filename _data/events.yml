@@ -1,0 +1,161 @@
+- title: false
+  titleurl: false
+  event: "ARCADES 2nd Software & Industrial Workshop, in Cambridge"
+  eventurl: http://arcades-network.eu/index.php/event/2nd-software-industrial-workshop-in-cambridge/
+  location: "Cambridge, UK"
+  datetext: January 28 - 31, 2019
+  dateend: Jan 31, 2019
+  latlng: {lat: 52.202541, lng: 0.131240}
+
+- title: false
+  titleurl: false
+  event: "Research Secondment at SINTEF"
+  eventurl: https://www.sintef.no/en/
+  location: "Oslo, Norway"
+  datetext: August 01 - September 30, 2018
+  dateend: Sep 30, 2018
+  latlng: {lat: 59.913869, lng: 10.752245}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Doctoral School II and ESR Days in Barcelona"
+  eventurl: http://arcades-network.eu/index.php/event/arcades-doctoral-school-ii-and-esr-days-in-barcelona/
+  location: "Barcelona, Spain"
+  datetext: September 03 - 07, 2018
+  dateend: Sep 07, 2018
+  latlng: {lat: 41.384466, lng: 2.174515}
+
+- title: Optimizing B-spline surfaces for developability and paneling architectural surfaces
+  titleurl: false
+  event: "Solid and Physical Modeling 2018"
+  eventurl: https://wp.bcamath.org/spm2018/
+  location: "Bilbao, Spain"
+  datetext: June 11 - 13, 2018
+  dateend: Jun 13, 2018
+  latlng: {lat: 43.26271, lng: -2.92528}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Learning Week II: Growth & Harvest"
+  eventurl: http://arcades-network.eu/index.php/event/learning-week-ii/
+  location: "Sophia-Antipolis, France"
+  datetext: March 19 - 23, 2018
+  dateend: Mar 23, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: false
+  titleurl: false
+  event: "Research Secondment at INRIA Sophia-Antipolis"
+  eventurl: https://www.inria.fr/en/centre/sophia
+  location: "Sophia-Antipolis, France"
+  datetext: "March 01 - May 31, 2018"
+  dateend: May 31, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: "Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces"
+  titleurl: false
+  event: "AROMATH Seminar"
+  eventurl: https://team.inria.fr/aromath/seminars/?mc_id=38
+  location: "Sophia-Antipolis, France"
+  datetext: May 30, 2018
+  dateend: May 30, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: "Architectural Geometry in Practice"
+  titleurl: false
+  event: "Inria PhD Seminar"
+  eventurl: https://phd-seminars-sam.inria.fr/program/?mc_id=45
+  location: "Sophia-Antipolis, France"
+  datetext: May 28, 2018
+  dateend: May 28, 2018
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: false
+  titleurl: false
+  event: "ARCADES First Software & Industrial Workshop, and Midterm Review, in Athens"
+  eventurl: http://arcades-network.eu/index.php/event/athens-school/
+  location: "Athens, Greece"
+  datetext: "November 27 - December 01, 2017"
+  dateend: Dec 01, 2017
+  latlng: {lat: 37.9838096, lng: 23.7275388}
+
+- title: "<em>attending</em>"
+  titleurl: false
+  event: " Symposium on Geometry and Computational Design 4"
+  eventurl: http://gcd.tuwien.ac.at/?p=1175
+  location: "Vienna, Austria"
+  datetext: "November 17, 2017"
+  dateend: Nov 17, 2017
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+- title: false
+  titleurl: false
+  event: "Geometry Workshop in Obergurgl 2017"
+  eventurl: http://www.geometrie.tugraz.at/events/og2017.html
+  location: "Obergurgl, Austria"
+  datetext: "September 21 - 26, 2017"
+  dateend: Sep 26, 2017
+  latlng: {lat: 46.8702519, lng: 11.0269261}
+
+- title: "Architectural Geometry in Practice"
+  titleurl: http://meetings.siam.org/sess/dsp_talk.cfm?p=87538
+  event: "SIAM Conference on Industrial and Applied Geometry"
+  eventurl: http://www.siam.org/meetings/gd17/
+  location: "Pittsburgh, USA"
+  datetext: "July 10 - 12, 2017"
+  dateend: Jul 12, 2017
+  latlng: {lat: 40.4406248, lng: -79.9958864}
+
+- title: "Interpolation of syzygies for implicit matrix representations"
+  titleurl: https://hal.inria.fr/hal-01421866
+  event: "International Conference on Algebraic Informatics 2017"
+  eventurl: http://www.cargo.wlu.ca/CAI2017/
+  location: "Kalamata, Greece"
+  datetext: June 25 - 28, 2017
+  dateend: Jun 28, 2017
+  latlng: {lat: 37.0422371, lng: 22.1141264}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Learning Week I: Opportunity Recognition"
+  eventurl: http://arcades-network.eu/index.php/event/learning-week-i/
+  location: "Sophia-Antipolis, France"
+  datetext: April 03 - 07, 2017
+  dateend: Apr 07, 2017
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Doctoral School in Oslo"
+  eventurl: http://arcades-network.eu/index.php/event/arcades-doctoral-school-in-oslo/
+  location: "Oslo, Norway"
+  datetext: November 28 - December 02, 2016
+  dateend: Dec 02, 2016
+  latlng: {lat: 59.913869, lng: 10.752245}
+
+- title: "<em>attending</em>"
+  titleurl: false
+  event: " Symposium on Geometry and Computational Design 3"
+  eventurl: http://gcd.tuwien.ac.at/?p=695
+  location: "Vienna, Austria"
+  datetext: "November 18, 2016"
+  dateend: Nov 18, 2016
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+- title: "<em>attending</em>"
+  titleurl: false
+  event: "Advances in Architectural Geometry 2016"
+  eventurl: http://www.aag2016.ch/
+  location: "Zürich, Switzerland"
+  datetext: September 09 - 13, 2016
+  dateend: Sep 13, 2016
+  latlng: {lat: 47.376887, lng: 8.541694}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Workshop: Kickoff and Recruitment Event"
+  eventurl: http://arcades-network.eu/index.php/event/arcades-kickoff-event/
+  location: "Vienna, Austria"
+  datetext: April 25 - 27, 2016
+  dateend: Apr 27, 2016
+  latlng: {lat: 48.2081743, lng: 16.3738189}

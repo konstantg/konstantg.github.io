@@ -1,8 +1,12 @@
+# Blog settings
+permalink: /blog/:title
+
+
 # My variables
-name: Micah Cowell
-description: cool web design
-google_analytics: UA-39119359-12
+name: Konstantinos Gavriil
+description: Personal website of Konstantinos Gavriil
 google_verification: null
+baseurl: ''
 
 
 # File management
@@ -22,3 +26,18 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
+
+# Google services
+google_analytics: UA-96352346-1
+
+# Comment section toggle
+comments: true
+
+# 'jekyll-maps'
+gems:
+    - jekyll-maps
+    - jekyll-sitemap
+
+maps:
+    google:
+        api_key: AIzaSyAcamkPPvTSfNngi8q41SuMqMGHjFCagm0
