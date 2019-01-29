@@ -36,7 +36,9 @@ __Publications, Preprints & Talks &rsaquo;__
 K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>[[preprint](https://arxiv.org/abs/1811.12693){:target="_blank"}] (2018).
 
 - __Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces.__<br>
-K. Gavriil, A. Schiftner, H. Pottmann.<br>[[preprint](https://arxiv.org/abs/1808.07560){:target="_blank"}] (2018).
+K. Gavriil, A. Schiftner, H. Pottmann.<br>
+_Computer-Aided Design_ (in press).<br>
+[[preprint](https://arxiv.org/abs/1808.07560){:target="_blank"}].
 
 - __Interpolation of syzygies for implicit matrix representations.__<br>
 I. Emiris, K. Gavriil, and C. Konaxis.<br>
