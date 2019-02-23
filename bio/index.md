@@ -33,7 +33,9 @@ __Teaching &rsaquo;__
 __Publications, Preprints & Talks &rsaquo;__
 
 - __Void Filling of Digital Elevation Models with Deep Generative Models.__<br>
-K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>[[preprint](https://arxiv.org/abs/1811.12693){:target="_blank"}] (2018).
+K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>
+_IEEE Geoscience and Remote Sensing Letters_ (in press).<br>
+[[preprint](https://arxiv.org/abs/1811.12693){:target="_blank"}].
 
 - __Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces.__<br>
 K. Gavriil, A. Schiftner, H. Pottmann.<br>
@@ -53,3 +55,8 @@ __Fellowships & Awards &rsaquo;__
 - <span class="darkdate">2016 - 2019</span> Three-year [ITN Marie Skłodowska-Curie Research Fellowship](http://cordis.europa.eu/project/rcn/198309_en.html){:target="_blank"} at [Evolute GmbH](https://www.evolute.at/){:target="_blank"} under the [ARCADES project](http://arcades-network.eu/){:target="_blank"}.  
 
 - <span class="darkdate">2016</span> Achievement award for the highest average grade [9.35/10.00] in the *Computational Science* specialization during the first year of MSc studies, [Department of Informatics and Telecommunications](http://www.di.uoa.gr/eng){:target="_blank"}, [National and Kapodistrian University of Athens](http://en.uoa.gr/){:target="_blank"}, Greece.
+
+<br>
+__Additional &rsaquo;__
+
+- Reviewer for _IEEE Geoscience and Remote Sensing Letters_.
