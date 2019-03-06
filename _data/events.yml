@@ -1,5 +1,14 @@
 - title: false
   titleurl: false
+  event: "ARCADES Learning Week III: Growth & Harvest"
+  eventurl: http://arcades-network.eu/index.php/event/learning-week-iii/
+  location: "Sophia-Antipolis, France"
+  datetext: March 27 - 29, 2019
+  dateend: Mar 29, 2019
+  latlng: {lat: 43.617642, lng: 7.055281}
+
+- title: false
+  titleurl: false
   event: "ARCADES 2nd Software & Industrial Workshop, in Cambridge"
   eventurl: http://arcades-network.eu/index.php/event/2nd-software-industrial-workshop-in-cambridge/
   location: "Cambridge, UK"

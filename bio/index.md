@@ -35,12 +35,12 @@ __Publications, Preprints & Talks &rsaquo;__
 - __Void Filling of Digital Elevation Models with Deep Generative Models.__<br>
 K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>
 _IEEE Geoscience and Remote Sensing Letters_ (in press).<br>
-[[preprint](https://arxiv.org/abs/1811.12693){:target="_blank"}].
+[[preprint](https://arxiv.org/abs/1811.12693){:target="_blank"}]
 
 - __Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces.__<br>
 K. Gavriil, A. Schiftner, H. Pottmann.<br>
-_Computer-Aided Design_ (in press).<br>
-[[preprint](https://arxiv.org/abs/1808.07560){:target="_blank"}].
+_Computer-Aided Design_, __111__, 29-43, 2019.<br>
+[[preprint](https://arxiv.org/abs/1808.07560){:target="_blank"}] [[DOI](https://doi.org/10.1016/j.cad.2019.01.006){:target="_blank"}]
 
 - __Interpolation of syzygies for implicit matrix representations.__<br>
 I. Emiris, K. Gavriil, and C. Konaxis.<br>
