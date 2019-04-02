@@ -1,5 +1,14 @@
 - title: false
   titleurl: false
+  event: "Geometry Workshop in Strobl 2019"
+  eventurl: http://www.geometrie.tugraz.at/events/strobl2019.html
+  location: "Strobl, Austria"
+  datetext: "September 02 - 05, 2019"
+  dateend: Sep 05, 2019
+  latlng: {lat: 47.716930, lng: 13.483350}
+
+- title: false
+  titleurl: false
   event: "ARCADES Learning Week III: Growth & Harvest"
   eventurl: http://arcades-network.eu/index.php/event/learning-week-iii/
   location: "Sophia-Antipolis, France"
