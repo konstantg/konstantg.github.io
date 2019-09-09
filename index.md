@@ -5,11 +5,13 @@ layout: about
 		<img src="/assets/img/portrait_light.png" alt="Portrait" style="width:auto;height:auto;max-width:100%;max-height: 150px;" class="center">
 </div>
 
-I am an ITN Marie Skłodowska-Curie Research Fellow at [Evolute GmbH](https://www.evolute.at/){:target="_blank"} and a PhD student at the [Applied Geometry](http://www.geometrie.tuwien.ac.at/geom/fg4/){:target="_blank"} group of the [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"} at [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, under the supervision of [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"}.
+I am a PhD candidate at the [Applied Geometry](http://www.geometrie.tuwien.ac.at/geom/fg4/){:target="_blank"} group of the [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"} at [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, under the supervision of [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"}.
+
+Until recently, I was an ITN Marie Skłodowska-Curie Research Fellow at [Evolute GmbH](https://www.evolute.at/){:target="_blank"}, working on geometric optimization algorithms with applications in architecture, CAD and interactive modeling.
 
 The focus of my PhD research is to incorporate various constraint types, such as constraints imposed by material properties, into the abstract geometric modeling design process.
 
-I also enjoy working on problems in computational geometry, combinatorial optimization and algebraic geometry. 
+I also enjoy working on problems in computational geometry, combinatorial optimization and algebraic geometry.
 
 <br>
 
@@ -22,7 +24,7 @@ __Latest posts &rsaquo;__
 
 <ul>
     {% for post in site.posts %}
-		
+
 		{% if count == 2 %}
 			{% break %}
 		{% endif %}
@@ -39,9 +41,9 @@ __Latest posts &rsaquo;__
     {% endfor %}
 
     <li><p>
-			
+
 		<a href="/blog">More...</a>
-		
+
 	</p></li>
 </ul>
 
@@ -59,7 +61,7 @@ __Upcoming &rsaquo;__
 		{% if eventtime > nowunix %}
 			{% assign count = count | plus: 1 %}
 			<li><p>
-				
+
 				{% if item.event %}
 					{% if item.eventurl %}
 						<a href="{{ item.eventurl }}" target="_blank">{{ item.event }}</a>
@@ -77,28 +79,28 @@ __Upcoming &rsaquo;__
 					{% endif %}
 					<br>
 				{% endif %}
-				
+
 				{% if item.location %}
 					{{ item.location }}
 					<br>
 				{% endif %}
-				
+
 				{% if item.datetext %}
 					<span class="date">{{ item.datetext }}</span>
 					<br>
 				{% endif %}
-				
+
 			</p></li>
-			<br /> 
+			<br />
 		{% endif %}
 	{% endfor %}
-	
+
 	<li><p>
-			
+
 		<a href="/map">More...</a>
-		
+
 	</p></li>
-	
+
 </ul>
 
 <br>

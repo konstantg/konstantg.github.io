@@ -1,5 +1,23 @@
 - title: false
   titleurl: false
+  event: "Symposium on Geometry and Computational Design 6"
+  eventurl: false
+  location: "Vienna, Austria"
+  datetext: "November 29, 2019"
+  dateend: Nov 29, 2019
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+- title: false
+  titleurl: false
+  event: "ARCADES Final Open Workshop"
+  eventurl: http://arcades-network.eu/index.php/event/final-open-workshop/
+  location: "Vienna, Austria"
+  datetext: "November 27-29, 2019"
+  dateend: Nov 29, 2019
+  latlng: {lat: 48.2081743, lng: 16.3738189}
+
+- title: false
+  titleurl: false
   event: "Geometry Workshop in Strobl 2019"
   eventurl: http://www.geometrie.tugraz.at/events/strobl2019.html
   location: "Strobl, Austria"

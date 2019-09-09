@@ -14,13 +14,15 @@ __Education &rsaquo;__
 <br>
 __Work &rsaquo;__
 
-- <span class="darkdate">Sep 2016 - now</span> __ITN Marie Skłodowska-Curie Research Fellow__ at [Evolute GmbH](https://www.evolute.at/){:target="_blank"}.
+- <span class="darkdate">now</span> __Project Assistant__, [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"}, [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, Austria.
+
+- <span class="darkdate">Sep 2016 - Aug 2019</span> __ITN Marie Skłodowska-Curie Research Fellow__ at [Evolute GmbH](https://www.evolute.at/){:target="_blank"}.
 
 - <span class="darkdate">Aug - Sep 2018</span> __Invited PhD Student__ of the [Geometry Group](https://www.sintef.no/en/digital/applied-mathematics/geometry/){:target="_blank"} of the [Mathematics and Cybernetics](https://www.sintef.no/en/digital/applied-mathematics/){:target="_blank"} department of the [SINTEF Digital](https://www.sintef.no/en/digital/){:target="_blank"} unit, under the guidance of [Tor Dokken](https://www.sintef.no/en/all-employees/employee/?empId=462){:target="_blank"} and [Georg Muntingh](https://www.sintef.no/en/all-employees/employee/?empId=4910){:target="_blank"}.
 
 - <span class="darkdate">Mar - May 2018</span> __Invited PhD Student__ of the [AROMATH](https://team.inria.fr/aromath/){:target="_blank"} project team at [Inria Sophia Antipolis - Méditerranée](https://www.inria.fr/en/centre/sophia){:target="_blank"}, under the guidance of [Bernard Mourrain](http://www-sop.inria.fr/members/Bernard.Mourrain/){:target="_blank"}.
 
-- <span class="darkdate">Aug 2015 - Aug 2016</span> __Research assistant__ at the [Advanced Geometric Computing and Critical Applications](http://geomcomp.di.uoa.gr/){:target="_blank"} (Thales) project, [ΕρΓΑ](http://erga.di.uoa.gr/) research lab, [Department of Informatics and Telecommunications](http://www.di.uoa.gr/eng){:target="_blank"}, [National and Kapodistrian University of Athens](http://en.uoa.gr/){:target="_blank"}.
+- <span class="darkdate">Aug 2015 - Aug 2016</span> __Research Assistant__ at the [Advanced Geometric Computing and Critical Applications](http://geomcomp.di.uoa.gr/){:target="_blank"} (Thales) project, [ΕρΓΑ](http://erga.di.uoa.gr/) research lab, [Department of Informatics and Telecommunications](http://www.di.uoa.gr/eng){:target="_blank"}, [National and Kapodistrian University of Athens](http://en.uoa.gr/){:target="_blank"}.
 
 <br>
 __Teaching &rsaquo;__
