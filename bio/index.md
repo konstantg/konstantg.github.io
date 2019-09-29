@@ -36,7 +36,7 @@ __Publications, Preprints & Talks &rsaquo;__
 
 - __Void Filling of Digital Elevation Models with Deep Generative Models.__<br>
 K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>
-_IEEE Geoscience and Remote Sensing Letters_ (in press).<br>
+_IEEE Geoscience and Remote Sensing Letters_, __16 (8)__, 1645-1649, 2019.<br>
 [[preprint](https://arxiv.org/abs/1811.12693){:target="_blank"}] [[DOI](https://doi.org/10.1109/LGRS.2019.2902222){:target="_blank"}]
 
 - __Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces.__<br>
