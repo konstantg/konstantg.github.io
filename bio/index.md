@@ -61,4 +61,4 @@ __Fellowships & Awards &rsaquo;__
 <br>
 __Additional &rsaquo;__
 
-- Reviewer for _IEEE Geoscience and Remote Sensing Letters_.
+- Reviewer for _The Visual Computer_, and _IEEE Geoscience and Remote Sensing Letters_.
