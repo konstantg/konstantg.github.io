@@ -1,5 +1,6 @@
 ---
 layout: about
+description: Personal website of Konstantinos Gavriil.
 ---
 <div class="face_container">
 		<img src="/assets/img/portrait_light.png" alt="Portrait" style="width:auto;height:auto;max-width:100%;max-height: 150px;" class="center">
@@ -109,7 +110,7 @@ __Upcoming &rsaquo;__
 
 <br>
 
-<a href="http://arcades-network.eu/" target="_blank">
+<a href="https://www.tuwien.at/en/" target="_blank">
 <img src="/assets/img/tuwien_logo.svg" alt="TU Wien Logo" style="opacity: 0.85;width:auto;height:auto;max-width:100%;max-height:80px;" class="center">
 </a>
 

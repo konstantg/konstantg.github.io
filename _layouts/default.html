@@ -12,7 +12,9 @@
         <title>{{ site.name }}</title>
     {% endif %}
 
-    <meta name="description" content="{{ site.description }}">
+    {% if  page.description %}
+      <meta name="description" content="{{ page.description }}">
+  	{% endif %}
 
     {% if site.google_verification %}
         <meta name="google-site-verification" content="{{ site.google_verify }}">
@@ -24,9 +26,9 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-    
+
     {% include analytics.html %}
-	{% if  page.comments %} 
+	{% if  page.comments %}
 		<script id="dsq-count-scr" src="//konstantg.disqus.com/count.js" async></script>
 	{% endif %}
 	<script type="text/javascript" src="/assets/js/yaml.js"></script>
@@ -34,7 +36,7 @@
 	  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
 	</script>
 
-    
+
 </head>
 
 <body>

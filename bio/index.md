@@ -1,11 +1,12 @@
 ---
 title: Bio - Konstantinos Gavriil
 layout: bio
+description: Short professional resume.
 ---
 
 __Education &rsaquo;__
 
-- <span class="darkdate">now</span> __PhD Fellow in Technical Mathematics__, [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"}, [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, Austria. Supervised by [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"}.
+- <span class="darkdate">now</span> __PhD Fellow in Technical Mathematics__, [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"}, [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, Austria. Thesis written under the supervision of [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"} on _Interactive Freeform Architectural Design with Nearly Developables and Cold Bent Glass_.
 
 - <span class="darkdate">2016</span> __Master of Science in Computational Science__, [Department of Informatics and Telecommunications](http://www.di.uoa.gr/eng){:target="_blank"}, [National and Kapodistrian University of Athens](http://en.uoa.gr/){:target="_blank"}, Greece. Thesis written under the supervision of [Ioannis Emiris](http://cgi.di.uoa.gr/~emiris/index-eng.html){:target="_blank"} on *Implicitization, Interpolation, and Syzygies*.
 
@@ -33,6 +34,11 @@ __Teaching &rsaquo;__
 
 <br>
 __Publications, Preprints & Talks &rsaquo;__
+
+- __Computational Design of Cold Bent Glass Façades.__<br>
+K. Gavriil, R. Guseinov, J. Pérez, D. Pellis, P. Henderson, F. Rist, H. Pottmann, B. Bickel.<br>
+_ACM Transactions on Graphics_, __39 (6)__, 208:1-208:16, 2020. (Proceedings of ACM SIGGRAPH Asia)<br>
+<!---[[preprint](https://arxiv.org/){:target="_blank"}]---> [[DOI](https://doi.org/10.1145/3414685.3417843){:target="_blank"}]
 
 - __Void Filling of Digital Elevation Models with Deep Generative Models.__<br>
 K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>

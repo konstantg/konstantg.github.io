@@ -1,5 +1,6 @@
 ---
 title: Map - Konstantinos Gavriil
+description: Future and past events.
 layout: map
 ---
 
@@ -12,7 +13,7 @@ __Upcoming &rsaquo;__
 		{% capture eventtime %}{{item.dateend | date: '%s'}}{% endcapture %}
 		{% if eventtime > nowunix %}
 			<li><p>
-				
+
 				{% if item.event %}
 					{% if item.eventurl %}
 						<a href="{{ item.eventurl }}" target="_blank">{{ item.event }}</a>
@@ -21,7 +22,7 @@ __Upcoming &rsaquo;__
 					{% endif %}
 					<br>
 				{% endif %}
-				
+
 				{% if item.title %}
 					{% if item.titleurl %}
 						<a href="{{ item.titleurl }}" target="_blank">{{ item.title }}</a>
@@ -30,18 +31,18 @@ __Upcoming &rsaquo;__
 					{% endif %}
 					<br>
 				{% endif %}
-				
+
 				{% if item.location %}
 					{{ item.location }}
 					<br>
 				{% endif %}
-				
+
 				{% if item.datetext %}
 					<span class="date">{{ item.datetext }}</span>
 					<br>
 				{% endif %}
 			</p></li>
-			<br /> 
+			<br />
 		{% endif %}
 	{% endfor %}
 </ul>
@@ -54,7 +55,7 @@ __Past &rsaquo;__
 		{% capture eventtime %}{{item.dateend | date: '%s'}}{% endcapture %}
 		{% if eventtime < nowunix %}
 			<li><p>
-				
+
 				{% if item.event %}
 					{% if item.eventurl %}
 						<a href="{{ item.eventurl }}" target="_blank">{{ item.event }}</a>
@@ -63,7 +64,7 @@ __Past &rsaquo;__
 					{% endif %}
 					<br>
 				{% endif %}
-				
+
 				{% if item.title %}
 					{% if item.titleurl %}
 						<a href="{{ item.titleurl }}" target="_blank">{{ item.title }}</a>
@@ -72,18 +73,18 @@ __Past &rsaquo;__
 					{% endif %}
 					<br>
 				{% endif %}
-				
+
 				{% if item.location %}
 					{{ item.location }}
 					<br>
 				{% endif %}
-				
+
 				{% if item.datetext %}
 					<span class="date">{{ item.datetext }}</span>
 					<br>
 				{% endif %}
 			</p></li>
-			<br /> 
+			<br />
 		{% endif %}
 	{% endfor %}
 </ul>
