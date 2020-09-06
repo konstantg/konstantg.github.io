@@ -110,7 +110,7 @@ __Upcoming &rsaquo;__
 <br>
 
 <a href="http://arcades-network.eu/" target="_blank">
-<img src="/assets/img/arcades_logo.png" alt="ARCADES Logo" style="width:auto;height:auto;max-width:100%;max-height: 130px;" class="center">
+<img src="/assets/img/tuwien_logo.svg" alt="TU Wien Logo" style="opacity: 0.85;width:auto;height:auto;max-width:100%;max-height:80px;" class="center">
 </a>
 
 <br>
