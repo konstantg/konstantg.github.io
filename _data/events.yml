@@ -1,3 +1,12 @@
+- title: Computational Design of Cold Bent Glass Façades
+  titleurl: false
+  event: "SIGGRAPH Asia 2020"
+  eventurl: https://sa2020.siggraph.org/en/
+  location: "Virtual"
+  datetext: "December 4 - 13, 2019"
+  dateend: Dec 13, 2020
+  latlng: false
+
 - title: false
   titleurl: false
   event: "Symposium on Geometry and Computational Design 6"
