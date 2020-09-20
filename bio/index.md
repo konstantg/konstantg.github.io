@@ -38,7 +38,7 @@ __Publications, Preprints & Talks &rsaquo;__
 - __Computational Design of Cold Bent Glass Façades.__<br>
 K. Gavriil, R. Guseinov, J. Pérez, D. Pellis, P. Henderson, F. Rist, H. Pottmann, B. Bickel.<br>
 _ACM Transactions on Graphics_, __39 (6)__, 208:1-208:16, 2020. (Proceedings of ACM SIGGRAPH Asia)<br>
-<!---[[preprint](https://arxiv.org/){:target="_blank"}]---> [[DOI](https://doi.org/10.1145/3414685.3417843){:target="_blank"}]
+[[pdf](https://konstantg.me/assets/pdf/coldglass.pdf){:target="_blank"}] [[DOI](https://doi.org/10.1145/3414685.3417843){:target="_blank"}]
 
 - __Void Filling of Digital Elevation Models with Deep Generative Models.__<br>
 K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>
