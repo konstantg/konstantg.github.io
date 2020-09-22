@@ -1,15 +1,15 @@
 #- title: about
 #  url: /
-  
-- title: bio
-  url: /bio
+
+- title: cv
+  url: /cv
 
 - title: map
   url: /map
   
 - title: blog
-  url: /blog  
-  
+  url: /blog
+
 - title: contact
   url: /contact
 
