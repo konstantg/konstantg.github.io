@@ -37,7 +37,7 @@ description: Short professional resume.
     <span style="font-weight: bold;">MSc in Computational Science</span><span style="float: right;color: #707070;">2016</span><br>
     <span style="color: #707070;">University of Athens</span><br>
 
-    <table style="font-size: 12pt;margin-top: 15px;max-width:100%;white-space:nowrap;">
+    <table style="font-size: 12pt;margin-top: 15px;width:100%;">
       <tr>
         <td><span style="font-weight: bold;">Thesis:&nbsp;</span></td>
         <td><span style="">Implicitization, Interpolation, and Syzygies</span></td>
