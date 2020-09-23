@@ -15,7 +15,7 @@ description: Short professional resume.
     <span style="font-weight: bold;">PhD in Technical Mathematics</span><span style="float: right;color: #707070;">2020</span><br>
     <span style="color: #707070;">TU Wien</span><br>
 
-    <table style="font-size: 12pt;width:100%;margin-top: 15px;">
+    <table style="margin-top: 15px;">
       <tr>
         <td><span style="font-weight: bold">Thesis:&nbsp;</span></td>
         <td><span style="">Interactive Freeform Architectural Design with Nearly Developables and Cold Bent Glass</span></td>
@@ -37,7 +37,7 @@ description: Short professional resume.
     <span style="font-weight: bold;">MSc in Computational Science</span><span style="float: right;color: #707070;">2016</span><br>
     <span style="color: #707070;">University of Athens</span><br>
 
-    <table style="font-size: 12pt;margin-top: 15px;width:100%;">
+    <table style="margin-top: 15px;">
       <tr>
         <td><span style="font-weight: bold;">Thesis:&nbsp;</span></td>
         <td><span style="">Implicitization, Interpolation, and Syzygies</span></td>
