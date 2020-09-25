@@ -21,7 +21,7 @@ Konstantinos Gavriil, Ruslan Guseinov, Jesús Pérez, Davide Pellis, Paul Hender
 </div>
 
 <div style="font-size: 0.95em;color: #707070;margin-top:0px;margin-bottom:20px;line-height: 110%;">
-<span style="font-style: italic;">ACM Transactions on Graphics</span>, <strong>39</strong>(6), 208:1-208:16, 2020.<br>
+<span style="font-style: italic;">ACM Transactions on Graphics</span>, <strong>39</strong>(6), 208:1-208:16, 2020. (to appear)<br>
 (Proc. ACM SIGGRAPH Asia)
 </div>
 
