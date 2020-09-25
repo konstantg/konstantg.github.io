@@ -65,7 +65,9 @@ description: Short professional resume.
 
 <div style="display: flex;line-height: 150%;margin-bottom: 20px;">
   <div style="width: 150px;flex: 0 0 150px;">
-    <img style="width: 80%;border: 1px solid #000;float: left;margin-top: 0px;" src="/assets/img/teasers/coldglass_teaser.png">
+    <a href="../projects/coldglass">
+      <img style="width: 80%;border: 1px solid #000;float: left;margin-top: 0px;" src="/assets/img/teasers/coldglass_teaser.png">
+    </a>
   </div>
 
   <div style="margin-left: 0px;">
@@ -74,8 +76,9 @@ description: Short professional resume.
     K. Gavriil, R. Guseinov, J. Pérez, D. Pellis, P. Henderson, F. Rist, H. Pottmann, B. Bickel.<br>
 
     <span style="font-style: italic;">ACM Transactions on Graphics</span>, <span style="font-weight: bold;">39 (6)</span>, 208:1-208:16, 2020. (Proc. ACM SIGGRAPH Asia)
-    [<a href="https://konstantg.me/assets/pdf/coldglass.pdf" target="_blank">pdf</a>]
-    [<a href="https://doi.org/10.1145/3414685.3417843" target="_blank">DOI</a>]<br>
+    [<a href="../assets/pdf/coldglass.pdf" target="_blank">pdf</a>]
+    [<a href="https://doi.org/10.1145/3414685.3417843" target="_blank">doi</a>]
+    [<a href="../projects/coldglass">project</a>]<br>
   </div>
 </div>
 
@@ -91,7 +94,7 @@ description: Short professional resume.
 
     <span style="font-style: italic;">IEEE Geoscience and Remote Sensing Letters</span>, <span style="font-weight: bold;">16 (8)</span>, 1645-1649, 2019.
     [<a href="https://arxiv.org/abs/1811.12693" target="_blank">preprint</a>]
-    [<a href="https://doi.org/10.1109/LGRS.2019.2902222" target="_blank">DOI</a>]
+    [<a href="https://doi.org/10.1109/LGRS.2019.2902222" target="_blank">doi</a>]
     [<a href="https://github.com/konstantg/dem-fill" target="_blank">code</a>]<br>
   </div>
 </div>
@@ -106,7 +109,7 @@ description: Short professional resume.
     K. Gavriil, A. Schiftner, H. Pottmann.<br>
     <span style="font-style: italic;">Computer-Aided Design</span>, <span style="font-weight: bold;">111</span>, 29-43, 2019.<br>
     [<a href="https://arxiv.org/abs/1808.07560" target="_blank">preprint</a>]
-    [<a href="https://doi.org/10.1016/j.cad.2019.01.006" target="_blank">DOI</a>]<br>
+    [<a href="https://doi.org/10.1016/j.cad.2019.01.006" target="_blank">doi</a>]<br>
   </div>
 </div>
 

@@ -1,0 +1,17 @@
+---
+title: Blog - Konstantinos Gavriil
+description: Personal blog with various notes.
+layout: default
+---
+
+<div class="blog">
+    <h1>Projects</h1>
+	<br>
+    <ul>
+        {% for item in site.data.projects %}
+        <li>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

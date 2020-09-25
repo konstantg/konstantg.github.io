@@ -388,7 +388,7 @@ img.center {
 	color: #707070;
 }
 
-.post {
+.post, .project {
 	padding-bottom: 30px;
 	&__back {
 		a {
@@ -436,12 +436,14 @@ img.center {
 	&__content {
 		padding-top: 40px;
 		h1 {
+			font-family: 'Roboto';
 			font-size: 1.4em;
 			font-weight: 700;
 			margin-top: 50px;
 			margin-bottom: 10px;
 		}
 		h2 {
+			font-family: 'Roboto';
 			font-size: 1.1em;
 			font-weight: 700;
 			margin-top: 2em;
@@ -492,20 +494,21 @@ img.center {
 			}
 		}
 		code {
+			white-space : pre-wrap !important;
 			padding: 3px;
 			font-size: 0.9em;
 			border-radius: 3px;
 			background: $color-grey;
 		}
 		.highlight {
-			margin: 10px;
+			margin: 0px;
 			margin-bottom: 15px;
 			padding: 10px;
 			line-height: 1.5;
 			border-radius: 3px;
-			background: $color-black;
+			background: $color-grey;
 			code {
-				color: $color-code;
+				// color: $color-code;
 				background: none;
 			}
 		}
@@ -513,6 +516,14 @@ img.center {
 			margin: 15px;
 			border: 0;
 			border-bottom: 1px dashed $color-black;
+		}
+	}
+}
+
+.project {
+	&__title {
+		h1 {
+			font-size: 1.8em;
 		}
 	}
 }
@@ -576,6 +587,26 @@ img.center {
 	border: 2px solid #777777;
 	margin: 20px;
 	height: 100%;
+}
+
+// Buttons
+
+.button {
+	display: inline-block;
+	color: $color-black;
+	border-radius: 4px;
+	font-size: 0.95em;
+	padding: 6px;
+	border: 1px solid #000;
+	transition-duration: 0.2s;
+	line-height: 1;
+	&:hover {
+		background-color: #707070;
+		// color: white;
+	}
+	&:visited {
+		color: $color-black;
+	}
 }
 
 // Post image extend
