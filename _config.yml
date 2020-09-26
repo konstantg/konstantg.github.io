@@ -1,5 +1,26 @@
 # Blog settings
-permalink: /blog/:title
+defaults:
+  # Blog
+  - scope:
+      path: "_posts/blog"
+      type: posts
+    values:
+      permalink: blog/:title
+      category: blog
+  # News
+  - scope:
+      path: "_posts/news"
+      type: posts
+    values:
+      permalink: news/:title
+      category: news
+  # Projects
+  - scope:
+      path: "_posts/projects"
+      type: posts
+    values:
+      permalink: projects/:title
+      category: projects
 
 
 # My variables

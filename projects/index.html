@@ -1,17 +1,19 @@
 ---
-title: Blog - Konstantinos Gavriil
-description: Personal blog with various notes.
+title: Projects - Konstantinos Gavriil
+description: Projects I was involved in.
 layout: default
 ---
 
-<div class="blog">
+<div class="projects">
     <h1>Projects</h1>
 	<br>
     <ul>
-        {% for item in site.data.projects %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
+      {% for post in site.categories.projects %}
+        <li><p>
+            <a href="{{ post.url }}" class="title_link">{{ post.title }}</a><br>
+            <span class="date">{{ post.date | date: '%b %Y' }}</span>
+            <br>
+        </p></li>
+      {% endfor %}
     </ul>
 </div>

@@ -1,8 +1,8 @@
 ---
 layout: project
 comments: false
+category: projects
 title: Computational Design of Cold Bent Glass Façades
-authors:
 ---
 
 <!-- <div style="font-family: 'Roboto';font-size: 0.8em;">

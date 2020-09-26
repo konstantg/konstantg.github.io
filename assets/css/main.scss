@@ -32,7 +32,8 @@ a {
 	text-decoration: none;
   }
   &:hover {
-	 background-color: $color-grey;
+	 // background-color: $color-grey;
+	 color: $color-black;
 	 text-decoration: none;
   }
   &:active {
@@ -58,6 +59,12 @@ blockquote {
   font-size: 1em;
   letter-spacing: -1px;
   //font-style: italic;
+}
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: 700;
 }
 
 .wrapper {
@@ -127,7 +134,7 @@ blockquote {
 	}
 }
 
-.blog {
+.blog, .news, .projects {
 	padding-bottom: 30px;
 	h1 {
 		font-family: 'Roboto';
@@ -317,18 +324,6 @@ img.center {
 			line-height: 150%;
 			margin-bottom: 15px;
 		}
-		a {
-			&:hover {
-				background-color: $color-grey;
-				text-decoration: none;
-			}
-		}
-		strong {
-			font-weight: 700;
-		}
-		em {
-			font-style: italic;
-		}
 		ul {
 			font-size: 1em;
 			list-style: circle;
@@ -388,7 +383,7 @@ img.center {
 	color: #707070;
 }
 
-.post, .project {
+.post, .project, .news_post {
 	padding-bottom: 30px;
 	&__back {
 		a {
@@ -526,6 +521,22 @@ img.center {
 		h1 {
 			font-size: 1.8em;
 		}
+	}
+}
+
+.title_link {
+	color: $color-black;
+	// font-size: 0.95em;
+	font-weight: bold;
+	background-color: $color-white;
+	&:visited {
+		color: $color-black;
+		background-color: $color-white;
+	}
+	&:hover {
+		color: $color-link;
+		background: $color-white;
+		background-color: $color-white;
 	}
 }
 

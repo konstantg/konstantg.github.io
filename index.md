@@ -22,66 +22,40 @@ I also enjoy working on problems in computational geometry, combinatorial optimi
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% assign count = 0 %}
-__Upcoming &rsaquo;__
+__News &rsaquo;__
 
 <ul>
-	{% for item in site.data.events reversed %}
-		{% if count == 3 %}
+    {% for post in site.categories.news %}
+
+		{% if count == 5 %}
 			{% break %}
 		{% endif %}
-		{% capture eventtime %}{{item.dateend | date: '%s'}}{% endcapture %}
-		{% if eventtime > nowunix %}
-			{% assign count = count | plus: 1 %}
-			<li><p>
 
-				{% if item.event %}
-					{% if item.eventurl %}
-						<a href="{{ item.eventurl }}" target="_blank">{{ item.event }}</a>
-					{% else %}
-						{{ item.event }}
-					{% endif %}
-					<br>
-				{% endif %}
+		{% assign count = count | plus: 1 %}
+	    <li><p>
+	        <span class="date">{{ post.date | date: '%b %Y' }}</span> <a href="{{ post.url }}" class="title_link">{{ post.title }}</a>
+	        <br>
 
-				{% if item.title %}
-					{% if item.titleurl %}
-						<a href="{{ item.titleurl }}" target="_blank">{{ item.title }}</a>
-					{% else %}
-						{{ item.title }}
-					{% endif %}
-					<br>
-				{% endif %}
+	        {{ post.excerpt }}
+	        <br>
+	    </p></li>
 
-				{% if item.location %}
-					{{ item.location }}
-					<br>
-				{% endif %}
+    {% endfor %}
 
-				{% if item.datetext %}
-					<span class="date">{{ item.datetext }}</span>
-					<br>
-				{% endif %}
+    <li><p>
 
-			</p></li>
-			<br />
-		{% endif %}
-	{% endfor %}
-
-	<li><p>
-
-		<a href="/map">More...</a>
+		<a href="/news">More...</a>
 
 	</p></li>
-
 </ul>
 
 <br>
 
 {% assign count = 0 %}
-__Latest posts &rsaquo;__
+__Posts &rsaquo;__
 
 <ul>
-    {% for post in site.posts %}
+    {% for post in site.categories.blog %}
 
 		{% if count == 2 %}
 			{% break %}
@@ -89,10 +63,10 @@ __Latest posts &rsaquo;__
 
 		{% assign count = count | plus: 1 %}
 	    <li><p>
-	        <a href="{{ post.url }}">{{ post.title }}</a>
+	        <a href="{{ post.url }}" class="title_link">{{ post.title }}</a>
 	        <br>
 
-	        {{ post.excerpt }} <span class="date">{{ post.date | date: '%B %Y' }}</span>
+	        {{ post.excerpt }} <span class="date">{{ post.date | date: '%b %Y' }}</span>
 	        <br>
 	    </p></li>
 
