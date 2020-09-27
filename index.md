@@ -3,7 +3,7 @@ layout: about
 description: Personal website of Konstantinos Gavriil.
 ---
 <div class="face_container">
-		<img src="/assets/img/portrait_vector.svg" alt="Portrait" style="width:auto;height:auto;max-width:100%;max-height: 150px;" class="center">
+		<img src="/assets/img/portrait.svg" alt="Portrait" style="width:auto;height:auto;max-width:100%;max-height: 150px;" class="center">
 </div>
 
 I am a PhD candidate at the [Applied Geometry](http://www.geometrie.tuwien.ac.at/geom/fg4/){:target="_blank"} group of the [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"} at [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, under the supervision of [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"}.
