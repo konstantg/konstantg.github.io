@@ -25,28 +25,27 @@ I also enjoy working on problems in computational geometry, combinatorial optimi
 __News &rsaquo;__
 
 <ul>
-    {% for post in site.categories.news %}
+		{% for post in site.categories.news %}
 
-		{% if count == 5 %}
-			{% break %}
-		{% endif %}
+			{% if count == 5 %}
+				{% break %}
+			{% endif %}
 
-		{% assign count = count | plus: 1 %}
-	    <li><p>
+			{% assign count = count | plus: 1 %}
+	    <li>
 	        <span class="date">{{ post.date | date: '%b %Y' }}</span> <a href="{{ post.url }}" class="title_link">{{ post.title }}</a>
-	        <br>
+					
+					<br>
 
-	        {{ post.excerpt }}
-	        <br>
-	    </p></li>
-
+					{{ post.excerpt }}
+	    </li>
     {% endfor %}
 
     <li><p>
 
 		<a href="/news">More...</a>
 
-	</p></li>
+		</p></li>
 </ul>
 
 <br>
