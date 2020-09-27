@@ -65,7 +65,7 @@ description: Short professional resume.
 
 <div style="display: flex;line-height: 150%;margin-bottom: 20px;">
   <div style="width: 150px;flex: 0 0 150px;">
-    <a href="../projects/coldglass">
+    <a href="{% post_url projects/2020-08-01-coldglass %}">
       <img style="width: 80%;border: 1px solid #000;float: left;margin-top: 0px;" src="/assets/img/teasers/coldglass_teaser.png">
     </a>
   </div>
@@ -78,7 +78,7 @@ description: Short professional resume.
     <span style="font-style: italic;">ACM Transactions on Graphics</span>, <span style="font-weight: bold;">39 (6)</span>, 208:1-208:16, 2020. (Proc. ACM SIGGRAPH Asia)
     [<a href="../assets/pdf/coldglass.pdf" target="_blank">pdf</a>]
     [<a href="https://doi.org/10.1145/3414685.3417843" target="_blank">doi</a>]
-    [<a href="../projects/coldglass">project</a>]<br>
+    [<a href="{% post_url projects/2020-08-01-coldglass %}">project</a>]<br>
   </div>
 </div>
 
