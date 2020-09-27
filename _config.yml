@@ -12,7 +12,7 @@ defaults:
       path: "_posts/news"
       type: posts
     values:
-      permalink: news/:title
+      permalink: news/:year/:month/:day/:title
       category: news
   # Projects
   - scope:
