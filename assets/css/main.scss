@@ -563,16 +563,17 @@ img.center {
 
 #disqus_thread {
      position: relative;
+		 margin-bottom: 100px;
 }
-#disqus_thread:after {
-     content: "";
-     display: block;
-     height: 55px;
-     width: 100%;
-     position: absolute;
-     bottom: 0;
-     background: white;
-}
+// #disqus_thread:after {
+//      content: "";
+//      display: block;
+//      height: 55px;
+//      width: 100%;
+//      position: absolute;
+//      bottom: 0;
+//      background: white;
+// }
 
 #pollly {
      position: relative;

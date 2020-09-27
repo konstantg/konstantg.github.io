@@ -53,6 +53,9 @@
 		</ul>
 		</div>
         {{ content }}
+        {% if page.comments %}
+          {% include disqus_comments.html %}
+        {% endif %}
     </div>
 </body>
 
