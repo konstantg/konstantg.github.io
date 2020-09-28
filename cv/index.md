@@ -76,9 +76,9 @@ description: Short professional resume.
     K. Gavriil, R. Guseinov, J. Pérez, D. Pellis, P. Henderson, F. Rist, H. Pottmann, B. Bickel.<br>
 
     <span style="font-style: italic;">ACM Transactions on Graphics</span>, <span style="font-weight: bold;">39 (6)</span>, 208:1-208:16, 2020. (Proc. ACM SIGGRAPH Asia)
+    [<a href="{% post_url projects/2020-08-01-coldglass %}">project</a>]
     [<a href="../assets/pdf/coldglass.pdf" target="_blank">pdf</a>]
-    [<a href="https://doi.org/10.1145/3414685.3417843" target="_blank">doi</a>]
-    [<a href="{% post_url projects/2020-08-01-coldglass %}">project</a>]<br>
+    [<a href="https://doi.org/10.1145/3414685.3417843" target="_blank">doi</a>]<br>
   </div>
 </div>
 
@@ -93,6 +93,7 @@ description: Short professional resume.
     K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>
 
     <span style="font-style: italic;">IEEE Geoscience and Remote Sensing Letters</span>, <span style="font-weight: bold;">16 (8)</span>, 1645-1649, 2019.
+    [<a href="{% post_url projects/2019-10-01-demfill %}">project</a>]
     [<a href="https://arxiv.org/abs/1811.12693" target="_blank">preprint</a>]
     [<a href="https://doi.org/10.1109/LGRS.2019.2902222" target="_blank">doi</a>]
     [<a href="https://github.com/konstantg/dem-fill" target="_blank">code</a>]<br>
