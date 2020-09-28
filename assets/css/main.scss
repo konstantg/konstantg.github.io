@@ -299,7 +299,7 @@ img.center {
 	//border: 2px solid #c0c0c0;
 }
 
-.about {
+.about, .cv {
 	h1 {
 		font-family: 'Roboto';
 		font-style: normal;
@@ -380,6 +380,15 @@ img.center {
 			margin: 15px;
 			border: 0;
 			border-bottom: 1px dashed $color-black;
+		}
+	}
+}
+
+.cv {
+	&__content {
+		h2 {
+			font-size: 1em;
+			margin-bottom: 30px;
 		}
 	}
 }

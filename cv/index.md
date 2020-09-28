@@ -4,7 +4,12 @@ layout: cv
 description: Short professional resume.
 ---
 
-<h2 style="font-size: 1.2em;margin-bottom: 30px;">Education &rsaquo;</h2>
+<a href="../assets/pdf/cv.pdf" class="button">pdf</a>
+
+<br>
+
+<h2>Education &rsaquo;</h2>
+
 
 <div style="display: flex;line-height: 150%;margin-bottom: 50px;">
   <div style="width: 80px;flex: 0 0 80px;">
@@ -61,7 +66,7 @@ description: Short professional resume.
     </div>
 </div>
 
-<h2 style="font-size: 1.2em;margin-bottom: 30px;">Publications &rsaquo;</h2>
+<h2>Publications &rsaquo;</h2>
 
 <div style="display: flex;line-height: 150%;margin-bottom: 20px;">
   <div style="width: 150px;flex: 0 0 150px;">
@@ -129,7 +134,7 @@ description: Short professional resume.
 
 <br>
 
-<h2 style="font-size: 1.2em;margin-bottom: 30px;">Work &rsaquo;</h2>
+<h2>Work &rsaquo;</h2>
 
 <div style="display: flex;line-height: 150%;margin-bottom: 50px;">
   <div style="width: 80px;flex: 0 0 80px;">
@@ -213,7 +218,7 @@ description: Short professional resume.
 
 <br>
 
-<h2 style="font-size: 1.2em;margin-bottom: 30px;">Teaching &rsaquo;</h2>
+<h2>Teaching &rsaquo;</h2>
 
 - <span class="darkdate">Fall 2014</span> __Numerical Methods and Programming__ as a Teaching Assistant. [Department of Chemistry](http://www.chem.uoa.gr/){:target="_blank"}, [National and Kapodistrian University of Athens](http://en.uoa.gr/){:target="_blank"}.
 
@@ -222,7 +227,7 @@ description: Short professional resume.
 <br>
 
 
-<h2 style="font-size: 1.2em;margin-bottom: 30px;">Talks &rsaquo;</h2>
+<h2>Talks &rsaquo;</h2>
 
 - __ARCADES Doctoral School II and ESR Days in Barcelona__ <span style="float: right;color: #707070;">Sep 2018</span><br>
 [[link](http://arcades-network.eu/index.php/event/arcades-doctoral-school-ii-and-esr-days-in-barcelona/){:target="_blank"}] <span style="float: right;color: #707070;">Barcelona, Spain</span>
@@ -239,7 +244,7 @@ description: Short professional resume.
 <br>
 
 
-<h2 style="font-size: 1.2em;margin-bottom: 30px;">Fellowships & Awards &rsaquo;</h2>
+<h2>Fellowships & Awards &rsaquo;</h2>
 
 - <span class="darkdate">2016 - 2019</span> Three-year [ITN Marie Skłodowska-Curie Research Fellowship](http://cordis.europa.eu/project/rcn/198309_en.html){:target="_blank"} at [Evolute GmbH](https://www.evolute.at/){:target="_blank"} under the [ARCADES project](http://arcades-network.eu/){:target="_blank"}.  
 
@@ -248,7 +253,7 @@ description: Short professional resume.
 <br>
 
 
-<h2 style="font-size: 1.2em;margin-bottom: 30px;">Additional &rsaquo;</h2>
+<h2>Additional &rsaquo;</h2>
 
 - Reviewer for [The Visual Computer](https://www.springer.com/journal/371){:target="_blank"}, and [IEEE Geoscience and Remote Sensing Letters](http://www.grss-ieee.org/publication-category/grsl/){:target="_blank"}.
 
