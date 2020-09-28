@@ -89,7 +89,9 @@ description: Short professional resume.
 
 <div style="display: flex;line-height: 150%;margin-bottom: 20px;">
   <div style="width: 150px;flex: 0 0 150px;">
-    <img style="width: 80%;border: 1px solid #000;float: left;margin-top: 0px;" src="/assets/img/teasers/demfill_teaser.png">
+    <a href="{% post_url projects/2019-10-01-demfill %}">
+      <img style="width: 80%;border: 1px solid #000;float: left;margin-top: 0px;" src="/assets/img/teasers/demfill_teaser.png">
+    </a>
   </div>
 
   <div style="margin-left: 0px;">
