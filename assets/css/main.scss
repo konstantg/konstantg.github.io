@@ -459,14 +459,6 @@ img.center {
 			line-height: 150%;
 			margin-bottom: 15px;
 		}
-		a {
-			// padding-bottom: 1px;
-			// border-bottom: 1px solid $color-link;
-			&:hover {
-				background-color: $color-grey;
-				text-decoration: none;
-			}
-		}
 		strong {
 			font-weight: 700;
 		}
@@ -530,6 +522,24 @@ img.center {
 		h1 {
 			font-size: 1.8em;
 		}
+	}
+	&_authors {
+		font-weight: bold;
+		font-size: 0.95em;
+		color: #707070;
+		margin-top:0px;
+		margin-bottom:20px;
+	}
+	&_journal {
+		font-size: 0.95em;
+		color: #707070;
+		margin-top:0px;
+		margin-bottom:20px;
+		line-height: 110%;
+	}
+	&_abstract, &_acknowledgements {
+		color: #696969;
+		letter-spacing: -1px;
 	}
 }
 
@@ -623,7 +633,7 @@ img.center {
 	transition-duration: 0.2s;
 	line-height: 1;
 	&:hover {
-		background-color: #707070;
+		background-color: $color-grey;
 		// color: white;
 	}
 	&:visited {
@@ -636,8 +646,10 @@ img.center {
 .img_extend {
 	margin-left: -15%;
 	margin-right: -15%;
-	padding-top: 25px;
-	padding-bottom: 40px;
+	margin-top: 25px;
+	margin-top: 40px;
+	// padding-top: 25px;
+	// padding-bottom: 40px;
 }
 
 .img_container {
