@@ -45,7 +45,7 @@ description: Short professional resume.
     <table style="margin-top: 15px;">
       <tr>
         <td><span style="font-weight: bold;">Thesis:&nbsp;</span></td>
-        <td><span style=""><a href="{% post_url 2016-09-21-msc %}">Implicitization, Interpolation, and Syzygies</a></span></td>
+        <td><span style=""><a href="{% post_url projects/2016-09-21-msc %}">Implicitization, Interpolation, and Syzygies</a></span></td>
       </tr>
       <tr>
         <td><span style="font-weight: bold;">Advisor:&nbsp;</span></td>
