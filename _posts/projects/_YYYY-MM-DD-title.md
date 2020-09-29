@@ -5,12 +5,12 @@ category: projects
 title: Title
 ---
 
-<div style="font-weight: bold;font-size: 0.95em;color: #707070;margin-top:0px;margin-bottom:20px;">
+<div class="project__authors">
 <a href="link" target="_blank">Author1</a>,
 <a href="link" target="_blank">Author2</a>.
 </div>
 
-<div style="font-size: 0.95em;color: #707070;margin-top:0px;margin-bottom:20px;line-height: 110%;">
+<div class="project__journal">
 <span style="font-style: italic;">Journal</span>, <strong>Volume</strong>(Issue), Article, Year. (to appear)<br>
 </div>
 
@@ -35,7 +35,7 @@ doi
 
 # Abstract
 <hr>
-<p style="color: #696969;letter-spacing: -1px;">Abstract.</p>
+<p class="project__abstract">Abstract.</p>
 <hr>
 
 # Results
@@ -67,4 +67,4 @@ doi
 
 
 # Acknowledgements
-<p style="color: #696969;letter-spacing: -1px;">Acknowledgements.</p>
+<p class="project__acknowledgements">Acknowledgements.</p>

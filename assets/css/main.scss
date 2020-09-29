@@ -532,21 +532,21 @@ img.center {
 			font-size: 1.8em;
 		}
 	}
-	&_authors {
+	&__authors {
 		font-weight: bold;
 		font-size: 0.95em;
 		color: #707070;
 		margin-top:0px;
 		margin-bottom:20px;
 	}
-	&_journal {
+	&__journal {
 		font-size: 0.95em;
 		color: #707070;
 		margin-top:0px;
 		margin-bottom:20px;
 		line-height: 110%;
 	}
-	&_abstract, &_acknowledgements {
+	&__abstract, &__acknowledgements {
 		color: #696969;
 		letter-spacing: -1px;
 	}

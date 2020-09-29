@@ -9,7 +9,7 @@ title: Computational Design of Cold Bent Glass Façades
 Konstantinos Gavriil, Ruslan Guseinov, Jesús Pérez, Davide Pellis, Paul Henderson, Florian Rist, Helmut Pottmann, Bernd Bickel.
 </div> -->
 
-<div class="project_authors">
+<div class="project__authors">
 <a href="https://konstantg.me/" target="_blank">Konstantinos Gavriil</a>,
 <a href="http://ruslanguseinov.com/" target="_blank">Ruslan Guseinov</a>,
 <a href="https://sites.google.com/view/jesusprod" target="_blank">Jesús Pérez</a>,
@@ -20,7 +20,7 @@ Konstantinos Gavriil, Ruslan Guseinov, Jesús Pérez, Davide Pellis, Paul Hender
 <a href="http://berndbickel.com/about-me/" target="_blank">Bernd Bickel</a>.
 </div>
 
-<div class="project_journal">
+<div class="project__journal">
 <span style="font-style: italic;">ACM Transactions on Graphics</span>, <strong>39</strong>(6), 208:1-208:16, 2020. (to appear)<br>
 (Proc. ACM SIGGRAPH Asia)
 </div>
@@ -31,8 +31,9 @@ pdf
 <a href="https://doi.org/10.1145/3414685.3417843" class="button" target="_blank">
 doi
 </a>
-
-
+<a href="https://arxiv.org/abs/2009.03667" class="button" target="_blank">
+arxiv
+</a>
 
 <div class="img_extend">
     <div class="img_container">
@@ -46,7 +47,7 @@ doi
 
 # Abstract
 <hr>
-<p class="project_abstract">Cold bent glass is a promising and cost-efficient method for realizing doubly curved glass façades. They are produced by attaching planar glass sheets to curved frames and require keeping the occurring stress within safe limits. However, it is very challenging to navigate the design space of cold bent glass panels due to the fragility of the material, which impedes the form-finding for practically feasible and aesthetically pleasing cold bent glass façades. We propose an interactive, data-driven approach for designing cold bent glass façades that can be seamlessly integrated into a typical architectural design pipeline. Our method allows non-expert users to interactively edit a parametric surface while providing real-time feedback on the deformed shape and maximum stress of cold bent glass panels. Designs are automatically refined to minimize several fairness criteria while maximal stresses are kept within glass limits. We achieve interactive frame rates by using a differentiable Mixture Density Network trained from more than a million simulations. Given a curved boundary, our regression model is capable of handling multistable configurations and accurately predicting the equilibrium shape of the panel and its corresponding maximal stress. We show predictions are highly accurate and validate our results with a physical realization of a cold bent glass surface.</p>
+<p class="project__abstract">Cold bent glass is a promising and cost-efficient method for realizing doubly curved glass façades. They are produced by attaching planar glass sheets to curved frames and require keeping the occurring stress within safe limits. However, it is very challenging to navigate the design space of cold bent glass panels due to the fragility of the material, which impedes the form-finding for practically feasible and aesthetically pleasing cold bent glass façades. We propose an interactive, data-driven approach for designing cold bent glass façades that can be seamlessly integrated into a typical architectural design pipeline. Our method allows non-expert users to interactively edit a parametric surface while providing real-time feedback on the deformed shape and maximum stress of cold bent glass panels. Designs are automatically refined to minimize several fairness criteria while maximal stresses are kept within glass limits. We achieve interactive frame rates by using a differentiable Mixture Density Network trained from more than a million simulations. Given a curved boundary, our regression model is capable of handling multistable configurations and accurately predicting the equilibrium shape of the panel and its corresponding maximal stress. We show predictions are highly accurate and validate our results with a physical realization of a cold bent glass surface.</p>
 <hr>
 
 # Results
@@ -119,4 +120,4 @@ numpages = {16}
 
 
 # Acknowledgements
-<p style="color: #696969;letter-spacing: -1px;">We thank IST Austria’s Scientific Computing team for their support, Corinna Datsiou and Sophie Pennetier for their expert input on the practical applications of cold bent glass, and Zaha Hadid Architects and Waagner Biro for providing the architectural datasets. This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No 675789 - Algebraic Representations in Computer-Aided Design for complEx Shapes (ARCADES), from the European Research Council (ERC) under grant agreement No 715767 - MATERIALIZABLE: Intelligent fabrication-oriented Computational Design and Modeling, and SFB-Transregio “Discretization in Geometry and Dynamics” through grant I 2978 of the Austrian Science Fund (FWF). F. Rist and K. Gavriil have been partially supported by KAUST baseline funding.</p>
+<p class="project__acknowledgements">We thank IST Austria’s Scientific Computing team for their support, Corinna Datsiou and Sophie Pennetier for their expert input on the practical applications of cold bent glass, and Zaha Hadid Architects and Waagner Biro for providing the architectural datasets. This project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No 675789 - Algebraic Representations in Computer-Aided Design for complEx Shapes (ARCADES), from the European Research Council (ERC) under grant agreement No 715767 - MATERIALIZABLE: Intelligent fabrication-oriented Computational Design and Modeling, and SFB-Transregio “Discretization in Geometry and Dynamics” through grant I 2978 of the Austrian Science Fund (FWF). F. Rist and K. Gavriil have been partially supported by KAUST baseline funding.</p>

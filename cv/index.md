@@ -23,7 +23,7 @@ description: Short professional resume.
     <table style="margin-top: 15px;">
       <tr>
         <td><span style="font-weight: bold">Thesis:&nbsp;</span></td>
-        <td><span style="">Interactive Freeform Architectural Design with Nearly Developables and Cold Bent Glass</span></td>
+        <td><span style=""><a href="{% post_url projects/2020-09-18-phd %}">Interactive Freeform Architectural Design with Nearly Developables and Cold Bent Glass</a></span></td>
       </tr>
       <tr>
         <td><span style="font-weight: bold;">Advisor:&nbsp;</span></td>
@@ -45,7 +45,7 @@ description: Short professional resume.
     <table style="margin-top: 15px;">
       <tr>
         <td><span style="font-weight: bold;">Thesis:&nbsp;</span></td>
-        <td><span style="">Implicitization, Interpolation, and Syzygies</span></td>
+        <td><span style=""><a href="{% post_url 2016-09-21-msc %}">Implicitization, Interpolation, and Syzygies</a></span></td>
       </tr>
       <tr>
         <td><span style="font-weight: bold;">Advisor:&nbsp;</span></td>
@@ -76,7 +76,7 @@ description: Short professional resume.
   </div>
 
   <div style="margin-left: 0px;">
-    <span style="font-weight: bold;">Computational Design of Cold Bent Glass Façades.</span><br>
+    <a href="{% post_url projects/2020-08-01-coldglass %}" class="title_link">Computational Design of Cold Bent Glass Façades.</a><br>
 
     K. Gavriil, R. Guseinov, J. Pérez, D. Pellis, P. Henderson, F. Rist, H. Pottmann, B. Bickel.<br>
 
@@ -95,7 +95,7 @@ description: Short professional resume.
   </div>
 
   <div style="margin-left: 0px;">
-    <span style="font-weight: bold;">Void Filling of Digital Elevation Models with Deep Generative Models.</span><br>
+    <a href="{% post_url projects/2019-10-01-demfill %}" class="title_link">Void Filling of Digital Elevation Models with Deep Generative Models.</a><br>
 
     K. Gavriil, G. Muntingh, O. J.D. Barrowclough.<br>
 
