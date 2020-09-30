@@ -109,13 +109,16 @@ description: Short professional resume.
 
 <div style="display: flex;line-height: 150%;margin-bottom: 20px;">
   <div style="width: 150px;flex: 0 0 150px;">
+    <a href="{% post_url projects/2018-08-22-bspline_dev %}">
     <img style="width: 80%;border: 1px solid #000;float: left;margin-top: 0px;" src="/assets/img/teasers/dev_teaser.png">
+    </a>
   </div>
 
   <div style="margin-left: 0px;">
-    <span style="font-weight: bold;">Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces.</span><br>
+    <a href="{% post_url projects/2018-08-22-bspline_dev %}" class="title_link">Optimizing B-spline surfaces for developability and paneling architectural freeform surfaces.</a><br>
     K. Gavriil, A. Schiftner, H. Pottmann.<br>
     <span style="font-style: italic;">Computer-Aided Design</span>, <span style="font-weight: bold;">111</span>, 29-43, 2019.<br>
+    [<a href="{% post_url projects/2018-08-22-bspline_dev %}">project</a>]
     [<a href="https://arxiv.org/abs/1808.07560" target="_blank">preprint</a>]
     [<a href="https://doi.org/10.1016/j.cad.2019.01.006" target="_blank">doi</a>]<br>
   </div>
