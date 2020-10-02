@@ -2,6 +2,8 @@
 title: CV - Konstantinos Gavriil
 layout: cv
 description: Short professional resume.
+redirect_from:
+- /bio
 ---
 
 <a href="../assets/pdf/cv.pdf" class="button">pdf</a>
