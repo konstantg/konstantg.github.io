@@ -6,7 +6,7 @@ description: Personal website of Konstantinos Gavriil.
 		<img src="/assets/img/portrait.svg" alt="Portrait" style="width:auto;height:auto;max-width:100%;max-height: 150px;" class="center">
 </div>
 
-I just received my PhD in Technical Mathematics from [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, at the [Applied Geometry](http://www.geometrie.tuwien.ac.at/geom/fg4/){:target="_blank"} group of the [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"}, under the supervision of [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"}.
+I recently received my PhD in Technical Mathematics from [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, at the [Applied Geometry](http://www.geometrie.tuwien.ac.at/geom/fg4/){:target="_blank"} group of the [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"}, under the supervision of [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"}.
 
 The focus of my PhD research was to incorporate various constraint types, such as constraints imposed by material properties, into the abstract geometric modeling design process.
 
