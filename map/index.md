@@ -16,7 +16,7 @@ __Upcoming &rsaquo;__
 
 				{% if item.event %}
 					{% if item.eventurl %}
-						<a href="{{ item.eventurl }}" target="_blank">{{ item.event }}</a>
+						<a href="{{ item.eventurl }}" target="_blank" class="title_link">{{ item.event }}</a>
 					{% else %}
 						{{ item.event }}
 					{% endif %}
@@ -58,9 +58,9 @@ __Past &rsaquo;__
 
 				{% if item.event %}
 					{% if item.eventurl %}
-						<a href="{{ item.eventurl }}" target="_blank">{{ item.event }}</a>
+						<a href="{{ item.eventurl }}" target="_blank" class="title_link">{{ item.event }}</a>
 					{% else %}
-						{{ item.event }}
+						<strong>{{ item.event }}</strong>
 					{% endif %}
 					<br>
 				{% endif %}

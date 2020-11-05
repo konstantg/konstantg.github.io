@@ -1,5 +1,14 @@
-- title: Computational Design of Cold Bent Glass Façades
+- title: "<em>attending</em>"
   titleurl: false
+  event: "ACM SCF 2020"
+  eventurl: https://scf.acm.org/2020/
+  location: "Virtual"
+  datetext: "November 5 - 6, 2020"
+  dateend: Nov 6, 2020
+  latlng: false
+
+- title: Computational Design of Cold Bent Glass Façades
+  titleurl: "../projects/coldglass"
   event: "SIGGRAPH Asia 2020"
   eventurl: https://sa2020.siggraph.org/en/
   location: "Virtual"
