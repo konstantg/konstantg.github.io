@@ -51,7 +51,7 @@ kramdown:
 highlighter: rouge
 
 # Google services
-google_analytics: G-1L0ZGWRTJ5
+google_analytics: UA-96352346-1
 
 # Comment section toggle
 comments: true
