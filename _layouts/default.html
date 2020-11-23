@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+    {% include gtag.html %}
+    {% include analytics.html %}
+
+
     {% if page.title %}
         <title>{{ page.title }}</title>
     {% else %}
@@ -26,10 +30,6 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed">
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
-
-    {% include analytics.html %}
-
-    {% include gtag.html %}
 
   	{% if  page.comments %}
   		<script id="dsq-count-scr" src="//konstantg.disqus.com/count.js" async></script>
