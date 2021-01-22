@@ -84,8 +84,10 @@ __Posts &rsaquo;__
 
 <br>
 
+<!---
 <a href="https://www.tuwien.at/en/" target="_blank">
 <img src="/assets/img/tuwien_logo.svg" alt="TU Wien Logo" style="opacity: 0.85;width:auto;height:auto;max-width:100%;max-height:80px;" class="center">
 </a>
+-->
 
 <br>
