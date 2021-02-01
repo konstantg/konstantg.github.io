@@ -145,6 +145,21 @@ redirect_from:
 
 <div style="display: flex;line-height: 150%;margin-bottom: 50px;">
   <div style="width: 80px;flex: 0 0 80px;">
+    <img style="width: 70%;float: left;margin-top: 5px;" src="/assets/img/sintef_logo.svg">
+  </div>
+
+  <div style="flex: 1;">
+    <span style="font-weight: bold;">SINTEF Digital</span><span style="float: right;color: #707070;">Feb 2021 - now</span><br>
+    <span style="">Research Scientist</span><span style="float: right;color: #707070;">Oslo, Norway</span><br>
+
+    <div style="margin-top: 15px;">
+      Research Scientist at the <a href="https://www.sintef.no/en/digital/applied-mathematics/geometry/" target="_blank">Geometry</a> group of the <a href="https://www.sintef.no/en/digital/applied-mathematics/" target="_blank">Mathematics and Cybernetics</a> department of <a href="https://www.sintef.no/en/digital/" target="_blank">SINTEF Digital</a>.
+    </div>
+  </div>
+</div>
+
+<div style="display: flex;line-height: 150%;margin-bottom: 50px;">
+  <div style="width: 80px;flex: 0 0 80px;">
     <img style="width: 70%;float: left;margin-top: 0px;" src="/assets/img/tuwien_logo.png">
   </div>
 
@@ -187,7 +202,7 @@ redirect_from:
     <span style="">Invited PhD Student</span><span style="float: right;color: #707070;">Oslo, Norway</span><br>
 
     <div style="margin-top: 15px;">
-      Two-month secondment at the <a href="https://www.sintef.no/en/digital/applied-mathematics/geometry/" target="_blank">Geometry</a> group the <a href="https://www.sintef.no/en/digital/applied-mathematics/" target="_blank">Mathematics and Cybernetics</a> department of the <a href="https://www.sintef.no/en/digital/" target="_blank">SINTEF Digital</a> unit under the guidance of <a href="https://www.sintef.no/en/all-employees/employee/?empid=462" target="_blank">Tor Dokken</a> and <a href="https://www.sintef.no/en/all-employees/employee/?empId=4910" target="_blank">Georg Muntingh</a>.
+      Two-month secondment at the <a href="https://www.sintef.no/en/digital/applied-mathematics/geometry/" target="_blank">Geometry</a> group of the <a href="https://www.sintef.no/en/digital/applied-mathematics/" target="_blank">Mathematics and Cybernetics</a> department of <a href="https://www.sintef.no/en/digital/" target="_blank">SINTEF Digital</a> under the guidance of <a href="https://www.sintef.no/en/all-employees/employee/?empid=462" target="_blank">Tor Dokken</a> and <a href="https://www.sintef.no/en/all-employees/employee/?empId=4910" target="_blank">Georg Muntingh</a>.
     </div>
   </div>
 </div>
