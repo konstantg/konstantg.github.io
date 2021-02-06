@@ -11,12 +11,17 @@ layout: contact
   </tr>
   <tr>
     <td style="padding-bottom:1em;"><strong>address:&nbsp;&nbsp;</strong></td>
-    <td style="padding-bottom:1em;">Applied Geometry, TU Wien, Wiedner Hauptstr. 8-10/104 A-1040 Vienna, Austria</td>
+    <td style="padding-bottom:1em;">
+    <span style="font-weight: bold;">&bull; visiting -</span> Forskningsveien 1, 0373 Oslo, Norway
+    <br>
+    <span style=" font-weight: bold;">&bull; postal  &nbsp;&nbsp;-</span> SINTEF Digital, Mathematics and Cybernetics, P.O. Box 124 Blindern, N-0314 Oslo, Norway</td>
   </tr>
+  <!--
   <tr>
     <td style="padding-bottom:1em;"><strong>phone:&nbsp;&nbsp;</strong></td>
     <td style="padding-bottom:1em;"><a href="tel:+43 1 503 1231">+43 (0) 1 503 1231</a></td>
   </tr>
+  -->
   <tr>
     <td style="padding-bottom:1em;"><strong>links:&nbsp;&nbsp;</strong></td>
     <td style="padding-bottom:1em;">

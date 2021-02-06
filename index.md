@@ -22,7 +22,7 @@ I also enjoy working on problems in computational geometry, combinatorial optimi
 
 {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 {% assign count = 0 %}
-__News &rsaquo;__
+<a href="news/" class="title_link">News &rsaquo;</a>
 
 <ul>
 		{% for post in site.categories.news %}
@@ -51,7 +51,7 @@ __News &rsaquo;__
 <br>
 
 {% assign count = 0 %}
-__Posts &rsaquo;__
+<a href="blog/" class="title_link">Posts &rsaquo;</a>
 
 <ul>
     {% for post in site.categories.blog %}
