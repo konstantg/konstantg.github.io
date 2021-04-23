@@ -48,9 +48,9 @@ I also enjoy working on problems in computational geometry, combinatorial optimi
 		</p></li>
 </ul>
 
-<br>
+<!-- <br> -->
 
-{% assign count = 0 %}
+<!-- {% assign count = 0 %}
 <a href="blog/" class="title_link">Posts &rsaquo;</a>
 
 <ul>
@@ -76,7 +76,7 @@ I also enjoy working on problems in computational geometry, combinatorial optimi
 		<a href="/blog">More...</a>
 
 	</p></li>
-</ul>
+</ul> -->
 
 <br>
 
