@@ -211,8 +211,11 @@ events:
 
 
 travel:
+- location: "Trondheim, Norway"
+  latlng: {lat: 63.4186677, lng: 10.2986817}
+
 - location: "Douz, Tunisia"
-  latlng: {lat: 33.459759,, lng: 9.024400}
+  latlng: {lat: 33.459759, lng: 9.024400}
 
 - location: "Djerba, Tunisia"
   latlng: {lat: 33.808708, lng: 10.991030}
