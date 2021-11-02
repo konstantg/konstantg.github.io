@@ -1,3 +1,12 @@
+- title: false
+  titleurl: false
+  event: "Geometric Modeling: Interoperability and New Challenges"
+  eventurl: https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=21471
+  location: "Dagstuhl, Germany"
+  datetext: "November 21 - 26, 2021"
+  dateend: Nov 26, 2021
+  latlng: {lat: 49.530278, lng: 6.899167}
+
 - title: "Computational Design of Cold Bent Glass Façades"
   titleurl: "../projects/coldglass"
   event: "Fassadenbautagung 2021"
