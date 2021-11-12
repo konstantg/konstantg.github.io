@@ -2,7 +2,7 @@
 layout: news_post
 comments: true
 category: news
-title: The SINTEF Geometry group is hiring.
+title: The SINTEF Geometry group is hiring
 description: Description.
 excerpt: false
 ---
