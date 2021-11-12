@@ -85,7 +85,8 @@ redirect_from:
     <span style="font-style: italic;">ACM Transactions on Graphics</span>, <span style="font-weight: bold;">39 (6)</span>, 208:1-208:16, 2020. (Proc. ACM SIGGRAPH Asia)
     [<a href="{% post_url projects/2020-08-01-coldglass %}">project</a>]
     [<a href="../assets/pdf/coldglass.pdf" target="_blank">pdf</a>]
-    [<a href="https://doi.org/10.1145/3414685.3417843" target="_blank">doi</a>]<br>
+    [<a href="https://doi.org/10.1145/3414685.3417843" target="_blank">doi</a>]
+    [<a href="https://github.com/russelmann/cold-glass-acm" target="_blank">code</a>]<br>
   </div>
 </div>
 
