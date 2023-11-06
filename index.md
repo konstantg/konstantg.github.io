@@ -12,7 +12,7 @@ I received my PhD in Technical Mathematics from [TU Wien](https://www.tuwien.ac.
 
 Until recently, I was an ITN Marie Skłodowska-Curie Research Fellow at [Evolute GmbH](https://www.evolute.at/){:target="_blank"}, working on geometric optimization algorithms with applications in architecture, CAD and interactive modeling.
 
-I also enjoy working on problems in computational geometry, combinatorial optimization and algebraic geometry.
+I also enjoy working on problems in computational geometry, and combinatorial optimization.
 
 <br>
 
