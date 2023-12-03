@@ -12,7 +12,7 @@ html {
 body {
 	color: $color-black;
 	background: $color-white;
-	font-family: 'Inconsolata';
+	font-family: 'Roboto';
 	font-size: 100%;
 	font-weight: 400;
 	//line-height: 200%;
@@ -63,7 +63,7 @@ blockquote {
   border-left: 4px solid $color-black;
   padding-left: 15px;
   font-size: 1em;
-  letter-spacing: -1px;
+  //letter-spacing: -1px;
   //font-style: italic;
 }
 em {
@@ -97,12 +97,11 @@ strong {
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: 600;
-		letter-spacing: normal;
+		//letter-spacing: normal;
 		line-height: 35px;
 		//line-height: 48px;
 		text-transform: none;
 		color: #333333;
-		letter-spacing: -1px;
 		font-size: 2em;
 		margin-bottom: 15px;
 		padding-bottom: 5px;
@@ -150,9 +149,8 @@ strong {
 		font-size: 1.4em;
 		margin-bottom: 5px;
 		padding-bottom: 30px;
-		letter-spacing: normal;
+		//letter-spacing: normal;
 		color: #333333;
-		letter-spacing: -1px;
 	}
 	ul {
 		font-size: 1em;
@@ -199,9 +197,8 @@ strong {
 		font-size: 1.4em;
 		margin-bottom: 5px;
 		padding-bottom: 30px;
-		letter-spacing: normal;
+		//letter-spacing: normal;
 		color: #333333;
-		letter-spacing: -1px;
 	}
 	&__content {
 		h1 {
@@ -297,8 +294,44 @@ img.center {
 	margin-bottom: 40px;
 	width: 100%;
 	max-width: 100vw;
-	height: 100%;
+	height: 380px;
+	background-color: $color-link;
+	position: relative;
 	//border: 2px solid #c0c0c0;
+
+	background: linear-gradient(-45deg, $color-link, #A5FFFF);
+	// background: linear-gradient(-45deg, #55f, #5f5, $color-link, #A5FFFF);
+	// background: linear-gradient(-45deg, #accbe9, #b7bdca);
+	// background: linear-gradient(-45deg, #E486AB 0%,#7F80B3 20%,#435A93 50%,#6452d8 95%);
+	
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes color {
+	0% {
+	  border-color: #f55;
+	}
+	
+	50% {
+	  border-color: #55f;
+	}
+	
+	100% {
+	  border-color: #5f5;
+	}
 }
 
 .about, .cv {
@@ -311,7 +344,6 @@ img.center {
 		padding-bottom: 30px;
 		//letter-spacing: normal;
 		color: #333333;
-		letter-spacing: -1px;
 	}
 	&__content {
 		h1 {
@@ -425,7 +457,6 @@ img.center {
 			//padding-bottom: 30px;
 			//letter-spacing: normal;
 			color: #333333;
-			letter-spacing: -1px;
 			//font-size: 1.6em;
 			//font-weight: 700;
 			padding-right: 10px;
@@ -550,7 +581,7 @@ img.center {
 	}
 	&__abstract, &__acknowledgements {
 		color: #696969;
-		letter-spacing: -1px;
+		//letter-spacing: normal;
 	}
 }
 
@@ -575,7 +606,7 @@ img.center {
 	font-size: 2em;
 	font-style: normal;
 	font-weight: 600;
-	letter-spacing: normal;
+	//letter-spacing: normal;
 	line-height: 48px;
 	text-transform: none;
 	color: #333333;
@@ -739,7 +770,6 @@ figcaption {
 			//padding-bottom: 30px;
 			//letter-spacing: normal;
 			color: #333333;
-			letter-spacing: -1px;
 			//font-size: 1.6em;
 			//font-weight: 700;
 			padding-right: 10px;
