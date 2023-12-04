@@ -481,6 +481,7 @@ img.center {
 			font-size: 0.9em;
 			font-style: normal;
 			color: #808080;
+			padding-bottom: 20px;
 			// font-weight: 600;
 			//font-style: italic;
 		}
@@ -693,6 +694,27 @@ img.center {
 	}
 	&:visited {
 		color: $color-black;
+	}
+}
+
+.category {
+	font-family: "Inconsolata";
+	display: inline-block;
+	background-color: $color-black;
+	color: $color-white;
+	// border-radius: 2px;
+	font-size: 0.9em;
+	font-weight: 600;
+	padding: 8px;
+	// border: 1px solid #000;
+	transition-duration: 0.2s;
+	line-height: 0.5em;
+	&:hover {
+		background-color: #4F4F4F;
+		// color: white;
+	}
+	&:visited {
+		color: $color-white;
 	}
 }
 
