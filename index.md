@@ -6,7 +6,7 @@ description: Personal website of Konstantinos Gavriil.
 		<img style="width:auto;height:100%;max-height: 260px; display: block; position:absolute; bottom: 0;" src="/assets/img/portrait2023.png" alt="Portrait" >
 </div>
 
-I am a Research Scientist at the [Geometry group](https://www.sintef.no/en/digital/departments-new/applied-mathematics/geometry/){:target="_blank"} of [SINTEF Digital](https://www.sintef.no/en/digital/){:target="_blank"} in Oslo, Norway.
+I am a __Research Scientist__ at the [Geometry group](https://www.sintef.no/en/digital/departments-new/applied-mathematics/geometry/){:target="_blank"} of [__SINTEF Digital__](https://www.sintef.no/en/digital/){:target="_blank"} in Oslo, Norway. I am interested in applied geometry, geometry processing, computational design and machine learning.
 
 I received my PhD in Technical Mathematics from [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"}, at the [Applied Geometry](http://www.geometrie.tuwien.ac.at/geom/fg4/){:target="_blank"} group of the [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"}, under the supervision of [Helmut Pottmann](http://www.dmg.tuwien.ac.at/pottmann/){:target="_blank"}. The focus of my PhD research was to incorporate various constraint types, such as constraints imposed by material properties, into the abstract geometric modeling design process.
 
