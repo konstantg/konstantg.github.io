@@ -3,7 +3,7 @@ layout: about
 description: Personal website of Konstantinos Gavriil.
 ---
 <div class="face_container">
-		<img style="width:auto;height:100%;max-height: 360px; display: block; position:absolute; bottom: 0;" src="/assets/img/portrait2023.png" alt="Portrait" >
+		<img style="width:auto;height:100%;max-height: 260px; display: block; position:absolute; bottom: 0;" src="/assets/img/portrait2023.png" alt="Portrait" >
 </div>
 
 I am a Research Scientist at the [Geometry group](https://www.sintef.no/en/digital/departments-new/applied-mathematics/geometry/){:target="_blank"} of [SINTEF Digital](https://www.sintef.no/en/digital/){:target="_blank"} in Oslo, Norway.
