@@ -1,10 +1,10 @@
 #- title: about
 #  url: /
 
-- title: cv
+- title: CV
   url: /cv
 
-- title: map
+- title: MAP
   url: /map
 
 #- title: projects
@@ -13,7 +13,7 @@
 # - title: blog
 #   url: /blog
 
-- title: contact
+- title: CONTACT
   url: /contact
 
 #- title: github
