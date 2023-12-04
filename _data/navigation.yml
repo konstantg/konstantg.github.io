@@ -10,8 +10,8 @@
 #- title: projects
 #  url: /projects
 
-# - title: blog
-#   url: /blog
+- title: BLOG
+  url: /blog
 
 - title: CONTACT
   url: /contact
