@@ -47,22 +47,37 @@
 
 <body>
 
-    <div class="wrapper">
-		<div class="header">
-		<h1><a href="/">{{ site.name }}</a></h1>
-		<ul>
-			{% for item in site.data.navigation %}
-			<li>
-				<a href="{{ item.url }}">{{ item.title }}  </a>
-			</li>
-			{% endfor %}
-		</ul>
-		</div>
-        {{ content }}
-        {% if page.comments %}
-          {% include disqus_comments.html %}
-        {% endif %}
+  <div class="KG_fixed_header">
+    <div class="KG_header">
+      <div class="KG_header_L">
+        <div class="KG_header_logo">
+          <a href="/">{{ site.name }}</a>
+        </div>
+      </div>
+
+      <div class="KG_header_R">
+        <div class="KG_header_navigation">
+          <ul>
+            {% for item in site.data.navigation %}
+            <li>
+              <a href="{{ item.url }}">{{ item.title }}  </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
+    <div class="KG_header_hline"></div>
+  </div>
+
+  <div class="wrapper">
+    <div>
+      {{ content }}
+      {% if page.comments %}
+        {% include disqus_comments.html %}
+      {% endif %}
+    </div>
+  </div>
 </body>
 
 </html>

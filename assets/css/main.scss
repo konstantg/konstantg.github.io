@@ -18,6 +18,7 @@ body {
 	height: 100%;
 	-webkit-font-smoothing: antialiased;
 }
+
 h1 {
 	margin-bottom: 5px;
 }
@@ -77,11 +78,112 @@ strong {
 	max-width: 600px;
 	height: 100%;
 	margin: auto;
-	padding: 20px 30px 60px 30px;
+	padding: 60px 30px 60px 30px;
 	@media screen and (max-width: $br) {
 		padding: 20px;
 	}
 }
+
+
+.KG_fixed_header {
+	padding:0 30px;
+	max-width: 800px;
+	margin:auto;
+	@media screen and (max-width: $br) {
+		padding:0 20px;
+	}
+}
+
+.KG_header {
+	min-height: 40px;
+	// max-width: 1000px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding:20px 0 10px 0;
+	// border-bottom: 1px solid $color-grey;
+
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox */
+    box-sizing: border-box;
+
+	@media screen and (max-width: $br) {
+		display: block;
+	}
+	align-items: baseline;
+}
+
+.KG_header_L {
+	align-items: center;
+}
+.KG_header_R {
+	align-items: center;
+}
+.KG_header_navigation {
+	ul {
+		// margin-top: 10px;
+		font-family: $font-sans;
+		font-weight: 600;
+		font-size: 0.8em;
+		li {
+			display: inline;
+			padding: 0;
+		}
+		li:not(:first-child) {
+			padding-left: 10px;
+		}
+	}
+}
+
+.KG_header_logo {
+	font-family: $font-sans;
+	font-style: normal;
+	font-weight: 600;
+	//letter-spacing: normal;
+	// line-height: 35px;
+	//line-height: 48px;
+	text-transform: none;
+	color: #333333;
+	font-size: 1.5em;
+	padding: 0;
+	// padding-bottom: 5px;
+
+	// border-bottom: 4px solid $color-grey;
+	//background-color: #e5e5e5;
+	//padding-left: 10px;
+	//padding-right: 15px;
+	//text-shadow: 2px 2px 0px #e5e5e5;
+	@media screen and (max-width: $br) {
+		padding-bottom: 10px;
+	}
+	a {
+		color: inherit; /* blue colors for links too */
+		text-decoration: inherit; /* no underline */
+	}
+	a:hover {
+		background-color: inherit;
+	}
+}
+
+.KG_header_hline {
+	box-sizing: border-box;
+    height: 1px;
+    background: $color-black;
+    // max-width: 1000px;
+	width: 100%;
+	@media screen and (max-width: $br) {
+		padding: 0 20px;
+	}
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
 
 
 .header {
@@ -111,7 +213,6 @@ strong {
 		//padding-left: 10px;
 		//padding-right: 15px;
 		//text-shadow: 2px 2px 0px #e5e5e5;
-
 		a {
 			color: inherit; /* blue colors for links too */
 			text-decoration: inherit; /* no underline */
@@ -911,3 +1012,7 @@ figcaption {
 		}
 	}
 }
+
+*:hover { 
+	outline:1px blue solid;
+  } 
