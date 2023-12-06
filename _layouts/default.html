@@ -28,7 +28,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Light">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Thin">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto Serif">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed">
@@ -70,14 +73,15 @@
     <div class="header_hline"></div>
   </div>
 
-  <div class="wrapper">
-    <div>
-      {{ content }}
-      {% if page.comments %}
-        {% include disqus_comments.html %}
-      {% endif %}
-    </div>
+  <!-- <div class="wrapper"> -->
+    
+  <div class="main">
+    {{ content }}
+    {% if page.comments %}
+      {% include disqus_comments.html %}
+    {% endif %}
   </div>
+  <!-- </div> -->
 </body>
 
 </html>
