@@ -216,10 +216,13 @@ strong {
 
 
 .blog, .news, .projects {
-	padding-bottom: 30px;
-	font-family: "Roboto";
+	// padding-bottom: 30px;
+	max-width: 800px;
+	margin: auto;
+	padding: 60px 20px 30px 20px;
+	font-family: $font-sans;
 	h1 {
-		font-family: 'Roboto';
+		font-family: $font-sans;
 		font-style: normal;
 		font-weight: 600;
 		font-size: 1.4em;
@@ -266,7 +269,10 @@ strong {
 }
 
 .contact {
-	font-family: 'Roboto';
+	max-width: 600px;
+	margin: auto;
+	padding: 60px 20px 20px 20px;
+	font-family: $font-sans;
 	h1 {
 		font-family: 'Roboto';
 		font-style: normal;
@@ -293,7 +299,7 @@ strong {
 		}
 		p {
 			font-size: 1em;
-			line-height: 150%;
+			line-height: 1.875em;
 			margin-bottom: 15px;
 		}
 		a {
@@ -413,7 +419,10 @@ img.center {
 }
 
 .about, .cv {
-	font-family: 'Roboto';
+	max-width: 600px;
+	margin: auto;
+	padding: 60px 20px 20px 20px;
+	font-family: $font-sans;
 	h1 {
 		font-style: normal;
 		font-weight: 600;
@@ -579,7 +588,7 @@ img.center {
 		}
 	}
 	&__content {
-		h1, h2, p {
+		h1, h2, p, code {
 			display: block;
 			padding: 0 20px;
 			max-width: 600px;
@@ -690,7 +699,7 @@ img.center {
 			}
 		}
 		code {
-			font-family: "Inconsolata";
+			font-family: $font-mono;
 			white-space : pre-wrap !important;
 			padding: 3px;
 			font-size: 0.9em;
@@ -717,22 +726,37 @@ img.center {
 	}
 }
 
+.news_post {
+	&__title {
+		font-size: 36px;
+	}
+	&__content {
+		font-family: $font-sans;
+	}
+}
+
 .project {
+	font-family: $font-sans;
 	&__title {
 		h1 {
 			font-size: 1.8em;
+			padding-bottom: 0;
 		}
 	}
+	&__content {
+		font-family: $font-sans;
+		padding-bottom: 60px;
+	}
 	&__authors {
-		font-family: "Inconsolata";
+		font-family: $font-mono;
 		font-weight: bold;
 		font-size: 0.95em;
 		color: #707070;
-		margin-top:20px;
+		margin-top:-100px;
 		margin-bottom:20px;
 	}
 	&__journal {
-		font-family: "Inconsolata";
+		font-family: $font-mono;
 		font-size: 0.95em;
 		color: #707070;
 		margin-top:0px;

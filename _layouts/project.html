@@ -2,21 +2,14 @@
 layout: default
 ---
 
-<div class="project">
-    <div class="post__back">
-    	<a href="/projects"><span class="category">PROJECTS</span></a>
-    </div>
-    <div class="project__title">
-    	<h1>{{ page.title }}</h1>
-    </div>
-    <div class="project__authors">
-    	<p>{{ page.authors }}</p>
-    </div>
-    <div class="project__meta">
-    	<p>{{ tags_content }}</p>
-    </div>
-    <div class="project__content"?>
+<div class="content_header">
+    <span><a href="/projects"><span class="category">PROJECTS</span></a></span>
+    <span class="project__title">{{ page.title }}</span>
+    <!-- <span class="project__authors">{{ page.authors }}</span> -->
+</div>
+
+<div class="content">
+    <div class="project__content">
         {{ content }}
     </div>
-    <br><br>
 </div>

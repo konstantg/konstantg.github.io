@@ -9,6 +9,7 @@ title: Computational Design of Cold Bent Glass Façades
 Konstantinos Gavriil, Ruslan Guseinov, Jesús Pérez, Davide Pellis, Paul Henderson, Florian Rist, Helmut Pottmann, Bernd Bickel.
 </div> -->
 
+<div class="content_header">
 <div class="project__authors">
 <a href="https://konstantg.me/" target="_blank">Konstantinos Gavriil</a>,
 <a href="http://ruslanguseinov.com/" target="_blank">Ruslan Guseinov</a>,
@@ -37,93 +38,61 @@ arxiv
 <a href="https://github.com/russelmann/cold-glass-acm" class="button" target="_blank">
 code
 </a>
+</div>
 
-<div class="img_extend">
-    <div class="img_container">
-        <div id="img_extend">
-            <img style="width: 100%;" src="/assets/img/projects/coldglass/1.png">
-            <figcaption>Rendering of a cold bent glass façade designed with our tool.</figcaption>
-        </div>
-    </div>
+<div class="img_full">
+    <img style="width: 100%;" src="/assets/img/projects/coldglass/1.png">
+    <figcaption>Rendering of a cold bent glass façade designed with our tool.</figcaption>
 </div>
 
 
 # Abstract
-<hr>
 <p class="project__abstract">Cold bent glass is a promising and cost-efficient method for realizing doubly curved glass façades. They are produced by attaching planar glass sheets to curved frames and require keeping the occurring stress within safe limits. However, it is very challenging to navigate the design space of cold bent glass panels due to the fragility of the material, which impedes the form-finding for practically feasible and aesthetically pleasing cold bent glass façades. We propose an interactive, data-driven approach for designing cold bent glass façades that can be seamlessly integrated into a typical architectural design pipeline. Our method allows non-expert users to interactively edit a parametric surface while providing real-time feedback on the deformed shape and maximum stress of cold bent glass panels. Designs are automatically refined to minimize several fairness criteria while maximal stresses are kept within glass limits. We achieve interactive frame rates by using a differentiable Mixture Density Network trained from more than a million simulations. Given a curved boundary, our regression model is capable of handling multistable configurations and accurately predicting the equilibrium shape of the panel and its corresponding maximal stress. We show predictions are highly accurate and validate our results with a physical realization of a cold bent glass surface.</p>
-<hr>
 
 # Results
-<div class="img_extend">
-    <div class="img_container">
-        <div id="img_extend">
-            <img style="width: 100%;" src="/assets/img/projects/coldglass/2.jpg">
-            <figcaption> Material-aware form finding of a cold bent glass façade.
-            From left to right: initial and revised panel layouts from an interactive design session with immediate feedback on the glass shape and maximum stress (red color indicates panel failure).
-            The surface design is then optimized for stress reduction and smoothness.
-            The final façade realization using cold bent glass features doubly curved areas and smooth reflections.</figcaption>
-        </div>
-    </div>
+<div class="img_full">
+    <img style="width: 100%;" src="/assets/img/projects/coldglass/2.jpg">
+    <figcaption> Material-aware form finding of a cold bent glass façade.
+    From left to right: initial and revised panel layouts from an interactive design session with immediate feedback on the glass shape and maximum stress (red color indicates panel failure).
+    The surface design is then optimized for stress reduction and smoothness.
+    The final façade realization using cold bent glass features doubly curved areas and smooth reflections.</figcaption>
 </div>
 
-<div class="img_extend">
-    <div class="img_container">
-        <div id="img_extend">
-            <img style="width: 100%;" src="/assets/img/projects/coldglass/3.gif">
-            <figcaption>Interactive session with our design tool, which was integrated to Rhino.
-            The tool provides real-time predictions for the panel shape in the form of cubic Bézier surfaces, and for the maximal stress of the panel; here color-coded as safe (blue), critical (pink), and breaking (red).
-            Yellow panels are ignored as their shape is outside the prediction domain of the model.</figcaption>
-        </div>
-    </div>
+<div class="img_full">
+    <img style="width: 100%;" src="/assets/img/projects/coldglass/3.gif">
+    <figcaption>Interactive session with our design tool, which was integrated to Rhino.
+    The tool provides real-time predictions for the panel shape in the form of cubic Bézier surfaces, and for the maximal stress of the panel; here color-coded as safe (blue), critical (pink), and breaking (red).
+    Yellow panels are ignored as their shape is outside the prediction domain of the model.</figcaption>
 </div>
 
-<div class="img_extend">
-    <div class="img_container">
-        <div id="img_extend">
-            <img style="width: 100%;" src="/assets/img/projects/coldglass/4.jpg">
-            <figcaption>Dominant cold bent glass realizations of the NHHQ design, the Lilium Tower, and another double-curved architectural design.</figcaption>
-        </div>
-    </div>
+
+<div class="img_full">
+    <img style="width: 100%;" src="/assets/img/projects/coldglass/4.jpg">
+    <figcaption>Dominant cold bent glass realizations of the NHHQ design, the Lilium Tower, and another double-curved architectural design.</figcaption>
 </div>
 
-<div class="img_extend">
-    <div class="img_container">
-        <div id="img_extend">
-            <img style="width: 100%;" src="/assets/img/projects/coldglass/5.jpg">
-            <figcaption> Realization of a double-curved surface using 3×3 cold bent panels.</figcaption>
-        </div>
-    </div>
+<div class="img_full">
+    <img style="width: 100%;" src="/assets/img/projects/coldglass/5.jpg">
+    <figcaption> Realization of a double-curved surface using 3×3 cold bent panels.</figcaption>
 </div>
 
 # Video
 
 ## Supplementary
 
-<div class="img_extend">
-<div style="margin-top:-20px;">
-    <div class="img_container">
-        <div id="img_extend">
-          <div style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
-            <iframe src="https://www.youtube.com/embed/FStBxKC4GkQ?color=white&modestbranding=1&autohide=1&showinfo=0&iv_load_policy=3&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe>
-          </div>
-        </div>
+<div class="img_full">
+    <div style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
+    <iframe src="https://www.youtube.com/embed/FStBxKC4GkQ?color=white&modestbranding=1&autohide=1&showinfo=0&iv_load_policy=3&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe>
     </div>
-</div>
 </div>
 
 
 ## Presentation
 
-<div class="img_extend">
-<div style="margin-top:-20px;">
-    <div class="img_container">
-        <div id="img_extend">
-          <div style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
-            <iframe src="https://www.youtube.com/embed/1z0CuxRhatI?color=white&modestbranding=1&autohide=1&showinfo=0&iv_load_policy=3&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe>
-          </div>
-        </div>
+<div class="img_full">
+    <div style="position: relative;width: 100%;height: 0;padding-bottom: 56.25%;">
+        <iframe src="https://www.youtube.com/embed/1z0CuxRhatI?color=white&modestbranding=1&autohide=1&showinfo=0&iv_load_policy=3&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe>
     </div>
-</div>
 </div>
 
 # BibTex
