@@ -4,6 +4,68 @@
 @import "reset";
 @import "config";
 
+
+.text_social_container {
+	padding: 20px 0;
+	text-transform: uppercase;
+	font-family:Roboto;
+	font-size: 14px;
+	font-weight: 900;
+	display: block;
+	display:flex;
+	flex-direction: column;
+	// margin:auto;
+	// justify-content: space-between;
+	// margin: auto;
+	// -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    // -moz-box-sizing: border-box;    /* Firefox */
+    // box-sizing: border-box;
+}
+.text_social_item {
+	// display: block;
+	// overflow: hidden;
+    // white-space: nowrap;
+	color: $color-black;
+	padding: 5px 0;
+	display: inline-block;
+	// float:left; 
+	// clear: left;
+		background-color: white;
+	a {
+		all: unset;
+		// background-color: white;
+		cursor: pointer;
+	}
+	a:hover {
+		color: $color-black;
+		background-color: white;
+	}
+	a:visited {
+		color: $color-black;
+		background-color: white;
+	}
+}
+
+
+.social-media-bar {
+	margin: auto;
+    text-align: center;
+    padding: 20px;
+    // position: relative;
+  }
+  
+  .social-icon {
+	margin-right: 10px;
+	display: inline-block;
+	text-decoration: none;
+  }
+  
+  .social-icon img {
+	width: 26px; /* Adjust the size of the icons as needed */
+	height: 26px;
+	border-radius: 50%;
+  }
+
 .blog_container {
 	// max-width: 900px;
 	// max-width: 100px;
@@ -405,7 +467,7 @@ strong {
 .contact {
 	max-width: 600px;
 	margin: auto;
-	padding: 60px 20px 20px 20px;
+	padding: 20px;
 	font-family: $font-sans;
 	h1 {
 		font-family: 'Roboto';
@@ -439,10 +501,10 @@ strong {
 		a {
 			// padding-bottom: 1px;
 			// border-bottom: 1px solid $color-link;
-			&:hover {
-				background-color: $color-grey;
-				text-decoration: none;
-			}
+			// &:hover {
+			// 	background-color: $color-grey;
+			// 	text-decoration: none;
+			// }
 		}
 		strong {
 			font-weight: 700;
@@ -1222,6 +1284,6 @@ figcaption {
 	}
 }
 
-// *:hover { 
-// 	outline:1px blue solid;
-//   } 
+*:hover { 
+	outline:1px blue solid;
+  }

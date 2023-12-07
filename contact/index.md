@@ -33,7 +33,7 @@ layout: contact
   </tr>
 </table> -->
 
-## Email
+<!-- ## Email
 <div><span>{% include email.html %}</span></div>
 
 ## Address
@@ -46,11 +46,36 @@ layout: contact
     <td style=" color: #999999;">postal&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
     <td>SINTEF Digital, Mathematics and Cybernetics, P.O. Box 124 Blindern, N-0314 Oslo, Norway</td>
 </tr>
-</table>
+</table> -->
 
-## Links
-  <a href="https://orcid.org/0000-0002-8000-7899" target="_blank">ORCID</a> |
-  <a href="https://scholar.google.at/citations?user=1J5z-40AAAAJ" target="_blank">Google Scholar</a> |
-  <a href="https://www.linkedin.com/in/konstantg/" target="_blank">LinkedIn</a> |
-  <a href="https://www.researchgate.net/profile/Konstantinos_Gavriil" target="_blank">ResearchGate</a> |
-  <a href="https://www.instagram.com/konstant.g/" target="_blank">Instagram</a>
+## Konstantinos Gavriil
+<div style="line-height: 1.875em;"><span>{% include email.html %}</span></div>
+<div style="line-height: 1.875em;"><span>{% include phone_number.html %}</span></div>
+SINTEF, Forskningsveien 1, 0373 Oslo, Norway
+
+<!-- <div style=hei> -->
+
+<!-- ## Links -->
+<div class="text_social_container">
+
+  <div class="text_social_item"><a href="https://orcid.org/0000-0002-8000-7899" target="_blank">ORCID</a></div>
+  <div class="text_social_item"><a href="https://scholar.google.at/citations?user=1J5z-40AAAAJ" target="_blank">Google Scholar</a></div>
+  <div class="text_social_item"><a href="https://www.linkedin.com/in/konstantg/" target="_blank">LinkedIn</a></div>
+  <div class="text_social_item"><a href="https://www.researchgate.net/profile/Konstantinos_Gavriil" target="_blank">ResearchGate</a></div>
+  <div class="text_social_item"><a href="https://www.instagram.com/konstant.g/" target="_blank">Instagram</a></div>
+</div>
+<!-- <form accept-charset="UTF-8" action="https://formkeep.com/f/exampletoken" method="POST">
+  <input type="email" name="email" placeholder="Your Email">
+  <input type="text" name="name" placeholder="Your Name">
+  <input type="hidden" name="utf8" value="✓">
+  <button type="submit">Submit</button>
+</form> -->
+
+
+<!-- <div class="social-media-bar">
+  <a href="https://orcid.org/0000-0002-8000-7899" target="_blank" class="social-icon"><img src="/assets/img/social_media_icons/orcid.svg" alt="ORCID"></a>
+  <a href="https://scholar.google.at/citations?user=1J5z-40AAAAJ" target="_blank" class="social-icon"><img src="/assets/img/social_media_icons/google_scholar.png" alt="Google Scholar"></a>
+  <a href="https://www.linkedin.com/in/konstantg/" target="_blank" class="social-icon"><img src="/assets/img/social_media_icons/linkedin.svg" alt="LinkedIn"></a>
+  <a href="https://www.researchgate.net/profile/Konstantinos_Gavriil" target="_blank" class="social-icon"><img src="/assets/img/social_media_icons/researchgate.svg" alt="ResearchGate"></a>
+  <a href="https://www.instagram.com/konstant.g/" target="_blank" class="social-icon"><img src="/assets/img/social_media_icons/instagram.svg" alt="Instagram"></a>
+</div> -->
