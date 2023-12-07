@@ -260,12 +260,13 @@ strong {
 }
 
 .header_L {
+	display: flex;
 	align-items: center;
 }
 .header_R {
 	align-items: center;
 	display: flex;
-	justify-content: center;
+	// justify-content: center;
 }
 .header_navigation {
 	ul {
@@ -287,6 +288,8 @@ strong {
 		font-weight: 600;
 		font-size: 0.8em;
 		padding: 10px 10px 10px 10px;
+		transition-duration: 0.2s;
+		&:hover {background: $color-grey;}
 		// li:not(:first-child) {
 		// 	padding-left: 10px;
 		// }
