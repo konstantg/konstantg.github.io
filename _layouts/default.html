@@ -59,7 +59,7 @@
       </div>
 
       <div class="header_R">
-        <div class="header_navigation">
+        <!-- <div class="header_navigation">
           <ul>
             {% for item in site.data.navigation %}
             <li>
@@ -67,7 +67,18 @@
             </li>
             {% endfor %}
           </ul>
-        </div>
+        </div> -->
+        {% for item in site.data.navigation %}
+          {% if page.url == item.url %}
+            <a href="{{ item.url }}" style="all: unset;cursor: pointer;">
+              <div class="header_navigation_item" style="color: white; background-color: black;">{{ item.title }}</div>
+            </a>
+          {% else %}
+          <a href="{{ item.url }}" style="all: unset;cursor: pointer;">
+            <div class="header_navigation_item">{{ item.title }}</div>
+          </a>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
     <div class="header_hline"></div>

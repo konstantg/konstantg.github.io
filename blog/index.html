@@ -4,16 +4,30 @@ description: Personal blog with various notes.
 layout: default
 ---
 
-<div class="blog">
-    <h1>Blog Posts</h1>
-	<br>
-    <ul>
-      {% for post in site.categories.blog %}
-        <li><p>
-            <a href="{{ post.url }}" class="title_link">{{ post.title }}</a>
-            <br>
-            {{ post.excerpt }} <span class="date">{{ post.date | date: '%b %Y' }}</span> 
-        </p></li>
-      {% endfor %}
-    </ul>
+<div class="blog_container">
+  <!-- <h1>Blog</h1> -->
+  {% for post in site.categories.blog %}
+
+    {% if count == 5 %}
+      {% break %}
+    {% endif %}
+
+    {% assign count = count | plus: 1 %}
+    <a href="{{ post.url }}" style="all: unset;cursor: pointer;">
+    <div class="blog_item">
+      <div class="blog_item_image">
+        <img src="{{post.image}}">
+      </div>
+      <div class="blog_item_content">
+        {% if post.blog_category %}
+          <span class="blog_item_content_category">{{ post.blog_category }}</span>
+        {% endif %}
+        <span class="blog_item_content_title">{{ post.title }}</span>
+        <span class="blog_item_content_description">{{ post.description }}</span>
+        <span class="blog_item_content_date">{{ post.date | date: '%b %-d, %Y' }}</span>
+      </div>
+    </div>
+    </a>
+    </a>
+  {% endfor %}
 </div>
