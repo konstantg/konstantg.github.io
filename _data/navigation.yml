@@ -2,19 +2,19 @@
 #  url: /
 
 - title: CV
-  url: /cv
+  url: /cv/
 
 - title: MAP
-  url: /map
+  url: /map/
 
 #- title: projects
 #  url: /projects
 
 - title: BLOG
-  url: /blog
+  url: /blog/
 
 - title: CONTACT
-  url: /contact
+  url: /contact/
 
 #- title: github
 #  url: https://github.com/konstantg
