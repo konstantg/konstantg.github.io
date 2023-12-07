@@ -48,35 +48,6 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 		</p></li>
 </ul>
 
-<!-- <br> -->
-
-<!-- {% assign count = 0 %}
-<a href="blog/" class="title_link">Posts &rsaquo;</a>
-
-<ul>
-    {% for post in site.categories.blog %}
-
-		{% if count == 2 %}
-			{% break %}
-		{% endif %}
-
-		{% assign count = count | plus: 1 %}
-	    <li><p>
-	        <a href="{{ post.url }}" class="title_link">{{ post.title }}</a>
-	        <br>
-
-	        {{ post.excerpt }} <span class="date">{{ post.date | date: '%b %Y' }}</span>
-	        <br>
-	    </p></li>
-
-    {% endfor %}
-
-    <li><p>
-
-		<a href="/blog">More...</a>
-
-	</p></li>
-</ul> -->
 
 <br>
 
