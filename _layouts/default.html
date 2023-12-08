@@ -51,39 +51,41 @@
 
 <body>
 
+<div class="header">
   <div class="header_container">
-    <div class="header">
+    <div class="header_content">
       <div class="header_L">
         <div class="header_logo">
-          <a href="/">{{ site.name }}</a>
+        <a href="/">{{ site.name }}</a>
         </div>
       </div>
 
       <div class="header_R">
-        <!-- <div class="header_navigation">
-          <ul>
-            {% for item in site.data.navigation %}
-            <li>
-              <a href="{{ item.url }}">{{ item.title }}  </a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div> -->
+      <!-- <div class="header_navigation">
+      <ul>
+      {% for item in site.data.navigation %}
+      <li>
+      <a href="{{ item.url }}">{{ item.title }}  </a>
+      </li>
+      {% endfor %}
+      </ul>
+      </div> -->
         {% for item in site.data.navigation %}
           {% if page.url == item.url %}
             <a href="{{ item.url }}" style="all: unset;cursor: pointer;">
               <div class="header_navigation_item" style="color: white; background-color: black;">{{ item.title }}</div>
             </a>
           {% else %}
-          <a href="{{ item.url }}" style="all: unset;cursor: pointer;">
-            <div class="header_navigation_item">{{ item.title }}</div>
-          </a>
+            <a href="{{ item.url }}" style="all: unset;cursor: pointer;">
+              <div class="header_navigation_item">{{ item.title }}</div>
+            </a>
           {% endif %}
         {% endfor %}
       </div>
     </div>
     <div class="header_hline"></div>
   </div>
+</div>
 
   <!-- <div class="wrapper"> -->
     
@@ -93,7 +95,21 @@
       {% include disqus_comments.html %}
     {% endif %}
   </div>
-  <!-- </div> -->
+  
+  <div class="footer">
+    <div class="footer_container">
+      <div class="footer_top">
+        <div class="footer_top_L">
+          Hello
+        </div>
+        <div class="footer_top_L">
+          Goodbye
+        </div>
+      </div>
+    </div>
+    &copy; 2023 Konstantinos Gavriil
+  </div>
+
 </body>
 
 </html>
