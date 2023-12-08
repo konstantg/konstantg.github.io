@@ -19,11 +19,35 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 <!-- <div class="positioner"> -->
 <div class="banner">
 	<div class="banner_wrapper">
-		<span class="banner_title">Blog</span>
+	<div class="banner_header">
+		<span class="banner_title">Latest posts</span>
+		<a href="blog/">{{ post.title }}<span class="banner_more">See more →</span></a>
+	</div>
 	<div class="banner_container">
-		<div class="banner_item_first"><img src="{{site.categories.blog[0].image}}"></div>
-		<div class="banner_square_item"><img src="{{site.categories.blog[1].image}}"></div>
-		<div class="banner_square_item"><img src="{{site.categories.blog[2].image}}"></div>
+		<a href="{{site.categories.blog[0].url}}" class="banner_item_first">
+			<div>
+				<img src="{{site.categories.blog[0].image}}">
+				<div class="banner_category">{{site.categories.blog[0].blog_category}}</div>
+				<div class="banner_item_first_title">{{site.categories.blog[0].title}}</div>
+				<!-- <div class="banner_item_first_description">{{site.categories.blog[0].description}}</div> -->
+			</div>
+		</a>
+		
+		<a href="{{site.categories.blog[1].url}}" class="banner_square_item">
+			<div >
+				<img src="{{site.categories.blog[1].image}}">
+				<div class="banner_category">{{site.categories.blog[1].blog_category}}</div>
+				<div class="banner_square_item_title">{{site.categories.blog[1].title}}</div>
+			</div>
+		</a>
+		
+		<a href="{{site.categories.blog[2].url}}" class="banner_square_item">
+			<div>
+				<img src="{{site.categories.blog[2].image}}">
+				<div class="banner_category">{{site.categories.blog[2].blog_category}}</div>
+				<div class="banner_square_item_title">{{site.categories.blog[2].title}}</div>
+			</div>
+		</a>
 	</div>
 	</div>
 </div>
@@ -31,7 +55,7 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 
 <br>
 
-<hr>
+<!-- <hr> -->
 
 <br>
 

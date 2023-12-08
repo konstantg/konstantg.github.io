@@ -9,7 +9,7 @@
 	
 	background-color: #111111;
 	// width: 100%;
-	width: calc(100vw - (100vw - 100%)); // ignore scrollbar width
+	// width: calc(100vw - (100vw - 100%)); // ignore scrollbar width
 
 	// position: fixed;
 	// left: 0;
@@ -20,27 +20,56 @@
 	// padding-left: calc(50vw - 450px);
     // padding-right: calc(50vw - 450px);
 
-	width: 100vw;
-	position: relative;
+	// width: 100vw;
+	// width: calc(100% - (100% - 100vw)); // ignore scrollbar width
+	// position: relative;
+	// left: 50%;
+	// right: 50%;
+	// margin-left: -50vw;
+	// margin-right: -50vw;
+
+	width: calc(100vw - var(--scrollbar-width));
+	margin-left: calc(-50vw + (var(--scrollbar-width)/2));
+
+	// height: 400px;
 	left: 50%;
-	right: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
-	
-	height: 400px;
+	position: relative;
 
 	// justify-content: space-between;
 
+	&_header {
+		width: 100%;
+		height: 40px;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		// background-color: #55f;
+		
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+
+	}
+
 	&_title {
-		display: block;
+		display: inline-block;
 		color: $color-white;
 		font-family: $font-mono;
 		font-weight: 600;
-		font-size: 20px;
-		padding: 20px 0;
+		font-size: 16px;
+		padding: 0 0 10px 0;
 		text-transform: uppercase;
+		border-bottom: 2px solid $color-white;
 		// border-bottom: 1px solid $color-white;
-
+	}
+	&_more {
+		display: inline-block;
+		color: $color-white;
+		font-family: $font-mono;
+		// font-weight: 600;
+		font-size: 14px;
+		// padding: 0 0 10px 0;
+		// border-bottom: 1px solid $color-white;
 	}
 
 	&_wrapper {
@@ -49,7 +78,7 @@
 		display: block;
 		// justify-content: space-between;
 		margin:auto;
-		// padding: 20px;
+		padding: 20px;
 	}
 	&_container {
 		// position: fixed;
@@ -57,16 +86,51 @@
 		display: flex;
 		justify-content: space-between;
 		margin:auto;
-		// padding: 20px;
+		padding-bottom: 40px;
+
+		// a {
+		// 	display: inline-block;
+		// 	all: unset;
+		// 	cursor: pointer;
+		// }
+
+		@media screen and (max-width: $br) {
+			padding-bottom: 0;
+		}
 	}
 
 	&_item_first {
-		max-width: 44.8%;
+		// max-width: 44.8%;
+		max-width: calc(2.78 * 16%);
 		// max-width: 450px;
 		// height: 300px;
 		// padding: 20px;
 		// border: 1px solid black;
-		background-color:#5f5;
+		// background-color:#5f5;
+
+		&_title {
+			display: block;
+			color: $color-white;
+			// font-family: Oswald;
+			font-family: $font-sans;
+			// font-family: $font-serif;
+			font-size: 24px;
+			line-height: 28px;
+			// font-weight: 600;
+			padding-bottom: 16px;
+			@media screen and (max-width: $br) {
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+		&_description {
+			display: block;
+			font-family: $font-sans-light;
+			color:$color-white;
+			font-size: 16px;
+			line-height: 18px;
+			padding-bottom: 20px;
+		}
 
 		img {
 			max-width: 100%;
@@ -75,18 +139,48 @@
 		}
 	}
 	&_square_item {
-		// width: 27.5625%;
-		width: 25.2%;
+		// width: 25.2%;
+		width: calc(2.78 * 9%);
 		aspect-ratio: 1;
 		// border: 1px solid black;
-		height: 300px;
+		// max-height: 300px;
 		// padding: 20px;
-		background-color:#5f5;
+		// background-color:#5f5;
+		&_title {
+			display: block;
+			color: $color-white;
+			// font-family: Oswald;
+			font-family: $font-sans;
+			// font-family: $font-serif;
+			font-size: 16px;
+			line-height: 20px;
+			// font-weight: 600;
+			padding-bottom: 16px;
+			@media screen and (max-width: $br) {
+				font-size: 12px;
+				line-height: 16px;
+			}
+		}
+
 		img {
 			max-width: 100%;
 			aspect-ratio: 1;
 			object-fit: cover;
 		}
+	}
+	&_category {
+		display: block;
+		width: auto;
+		text-transform: uppercase;
+		font-family: $font-mono;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 1.2em;
+		// color: $color-rust;
+		color: $color-vermilion;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		letter-spacing: 1.6px;
 	}
 }
 
@@ -270,7 +364,7 @@
 
 
 .main {
-	max-width: $width-XL;
+	max-width: $width-L;
 	margin: auto;
 }
 .content_header {
@@ -487,7 +581,7 @@ strong {
 .header_hline {
 	box-sizing: border-box;
     height: 1px;
-    background: #ccc;
+    background: #111;
 	width: 100%;
 	@media screen and (max-width: $br) {
 		padding: 0 20px;
