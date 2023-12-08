@@ -16,6 +16,21 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 
 <br>
 
+<!-- <div class="positioner"> -->
+<div class="banner">
+	<div class="banner_wrapper">
+		<span class="banner_title">Blog</span>
+	<div class="banner_container">
+		<div class="banner_item_first"><img src="{{site.categories.blog[0].image}}"></div>
+		<div class="banner_square_item"><img src="{{site.categories.blog[1].image}}"></div>
+		<div class="banner_square_item"><img src="{{site.categories.blog[2].image}}"></div>
+	</div>
+	</div>
+</div>
+<!-- </div> -->
+
+<br>
+
 <hr>
 
 <br>
