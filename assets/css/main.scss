@@ -29,7 +29,7 @@
 	justify-content: space-between;
 	align-items: center;
 	margin: auto;
-	padding-top:30px;
+	padding-top:40px;
 	// vertical-align: middle;
 
 	// -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -43,7 +43,7 @@
 	&_L {
 		display: flex;
 		align-items: center;
-		margin-bottom: 10px;
+		padding: 10px 0;
 	}
 
 	&_R {
@@ -53,7 +53,8 @@
 }
 
 .footer_bottom {
-	padding: 20px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 	color: #777777;
 	font-family: $font-sans;
 	font-size: 12px;
