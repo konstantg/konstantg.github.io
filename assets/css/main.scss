@@ -11,13 +11,14 @@
 	color: white;
 	text-align: center;
 	// padding: 10px;
-
-    min-height: 70px;
 }
 
 .footer_container {
+	
+    display: block;
 	padding:0 20px;
 	max-width: $width-XL;
+	// display: flex;
 	margin:auto;
 }
 
@@ -28,7 +29,7 @@
 	justify-content: space-between;
 	align-items: center;
 	margin: auto;
-	padding-top:20px;
+	padding-top:30px;
 	// vertical-align: middle;
 
 	// -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -40,16 +41,22 @@
 		text-align: center;;
 	}
 	&_L {
-		font-family: $font-mono;
-		font-size: 14px;
-		// display: flex;
-		// align-items: center;
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
 	}
 
 	&_R {
-		// align-items: center;
-		// display: flex;
+		align-items: center;
+		display: flex;
 	}
+}
+
+.footer_bottom {
+	padding: 20px;
+	color: #777777;
+	font-family: $font-sans;
+	font-size: 12px;
 }
 
 .footer_logo {
@@ -59,7 +66,7 @@
 	font-weight: 400;
 	text-transform: none;
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
 	// padding: 10px 0 40px 0;
 	margin: auto;
 	@media screen and (max-width: $br) {
