@@ -94,8 +94,8 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 
 <br>
 
-<a href="https://www.sintef.no/en/" target="_blank">
+<!-- <a href="https://www.sintef.no/en/" target="_blank">
 <img src="/assets/img/sintef_logo.svg" alt="SINTEF Logo" style="opacity: 0.85;width:auto;height:auto;max-width:100%;max-height:30px;" class="center">
-</a>
+</a> -->
 
 <br>
