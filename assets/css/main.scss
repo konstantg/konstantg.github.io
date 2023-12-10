@@ -30,6 +30,7 @@
 	align-items: center;
 	margin: auto;
 	padding-top:40px;
+	padding-bottom:40px;
 	// vertical-align: middle;
 
 	// -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -53,11 +54,12 @@
 }
 
 .footer_bottom {
-	padding-top: 40px;
+	padding-top: 30px;
 	padding-bottom: 30px;
 	color: #777777;
 	font-family: $font-sans;
 	font-size: 12px;
+	border-top: 2px solid rgb(51, 51, 51);
 }
 
 .footer_logo {
@@ -328,12 +330,19 @@
 	justify-content:center;
 	align-items: center;
 	text-decoration: none;
+
   }
   
   .social-icon img {
 	width: 32px; /* Adjust the size of the icons as needed */
 	height: 32px;
 	border-radius: 50%;
+	&:hover {
+		// background-color: #C37500;
+		opacity:0.6 !important;
+		filter:alpha(opacity=60) !important; /* For IE8 and earlier */
+		// box-shadow: 0 0 0px #000000 !important;
+	}
   }
 
 .blog_container {
@@ -1313,7 +1322,7 @@ img.center {
 	// position: relative;
 	max-width: $width-M;
 	margin: auto;
-	margin-bottom: 120px;
+	margin-bottom: 60px;
 	padding: 20px;
 }
 // #disqus_thread:after {
