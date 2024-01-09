@@ -3,6 +3,7 @@ layout: about
 description: Personal website of Konstantinos Gavriil.
 ---
 <div class="face_container">
+		<img style="width:100%; height:100%; object-fit: cover; display: block; position:relative; bottom: 0;" src="/assets/img/average.png" alt="Portrait" >
 		<img style="width:auto;height:100%;max-height: 260px; display: block; position:absolute; bottom: 0;" src="/assets/img/portrait2023.png" alt="Portrait" >
 </div>
 

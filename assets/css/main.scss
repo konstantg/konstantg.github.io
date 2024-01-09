@@ -92,7 +92,7 @@
 
 .banner {
 	
-	background-color: #111111;
+	// background-color: #111111;
 	// width: 100%;
 	// width: calc(100vw - (100vw - 100%)); // ignore scrollbar width
 
@@ -138,20 +138,20 @@
 
 	&_title {
 		display: inline-block;
-		color: $color-white;
+		color: $color-black;
 		font-family: $font-mono;
 		font-weight: 600;
 		font-size: 16px;
 		padding: 0 0 10px 0;
 		text-transform: uppercase;
-		border-bottom: 2px solid $color-white;
+		border-bottom: 2px solid $color-black;
 		// border-bottom: 1px solid $color-white;
 	}
 	&_more {
 		display: inline-block;
-		color: $color-white;
+		color: $color-black;
 		font-family: $font-mono;
-		// font-weight: 600;
+		font-weight: 600;
 		font-size: 14px;
 		// padding: 0 0 10px 0;
 		// border-bottom: 1px solid $color-white;
@@ -200,13 +200,13 @@
 
 		&_title {
 			display: block;
-			color: $color-white;
+			color: $color-black;
 			// font-family: Oswald;
 			font-family: $font-sans;
 			// font-family: $font-serif;
-			font-size: 24px;
+			font-size: 22px;
 			line-height: 28px;
-			// font-weight: 600;
+			font-weight: 600;
 			padding-bottom: 16px;
 			@media screen and (max-width: $br) {
 				font-size: 16px;
@@ -250,13 +250,13 @@
 		// background-color:#5f5;
 		&_title {
 			display: block;
-			color: $color-white;
+			color: $color-black;
 			// font-family: Oswald;
 			font-family: $font-sans;
 			// font-family: $font-serif;
 			font-size: 16px;
 			line-height: 20px;
-			// font-weight: 600;
+			font-weight: 600;
 			padding-bottom: 16px;
 			@media screen and (max-width: $br) {
 				font-size: 14px;
@@ -917,7 +917,7 @@ img.center {
 	width: 100%;
 	max-width: 100vw;
 	height: 280px;
-	background-color: $color-link;
+	background-color: #c7c7c7;
 	position: relative;
 	//border: 2px solid #c0c0c0;
 
