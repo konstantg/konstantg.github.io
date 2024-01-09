@@ -216,7 +216,8 @@
 		}
 		&_description {
 			display: block;
-			font-family: $font-sans-light;
+			font-family: $font-sans;
+			font-weight: 300;
 			color:$color-white;
 			font-size: 16px;
 			line-height: 18px;
@@ -455,7 +456,8 @@
 	}
 	&_description {
 		display: block;
-		font-family: $font-sans-light;
+		font-family: $font-sans;
+		font-weight: 300;
 		color:#4F4F4F;
 		font-size: 14px;
 		line-height: 18px;
@@ -1072,7 +1074,7 @@ img.center {
 		padding: 30px 0 20px 0;
 		line-height: 1em;
 		font-family: $font-sans;
-		font-style: normal;
+		// font-style: normal;
 		font-weight: 600;
 		font-size: 48px;
 		//margin-bottom: 5px;
@@ -1091,7 +1093,7 @@ img.center {
 	}
 	&__subtitle {
 		display: block;
-		font-family: Roboto Light;
+		font-family: Roboto;
 		font-weight: 300;
 		font-size: 16px;
 		line-height: 20px;
