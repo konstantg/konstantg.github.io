@@ -4,16 +4,13 @@ comments: true
 category: blog
 title: Title
 description: Description.
-excerpt: Excerpt.
+image: "/assets/img/posts/2017-08-13-siam-gd-2017/1.jpg"
+blog_category: conference
 ---
 
-
-<div class="img_extend">
-    <div class="img_container">
-        <div id="img_extend">
-            <img style="width: 100%;" src="">
-        </div>
-    </div>
+<div class="img_full">
+    <img style="width: 100%;" src="{{page.image}}">
+    <figcaption>Figure caption.</figcaption>
 </div>
 
 Content.
