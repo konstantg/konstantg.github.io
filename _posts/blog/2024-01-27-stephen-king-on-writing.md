@@ -39,7 +39,7 @@ __Read and write a lot.__ If you are serious about your writing you should do ju
 __Close the door.__ Make the time and the space to properly dive into the writing process. Also, use that isolation to feel comfortable with your writing. First drafts should be freeform. Criticism and edits come later.
 
 <div class="img_full">
-    <img style="width: 100%;" src="/assets/img/posts/2024-01-27-stephen-king-on-writing/2b.png">
+    <img style="width: 100%;" src="/assets/img/posts/2024-01-27-stephen-king-on-writing/2.png">
     <figcaption>Midjourney prompt: a scientist writing, stephen king world --ar 16:9 --style kMPjAdX5Yga9MPjw</figcaption>
 </div>
 
