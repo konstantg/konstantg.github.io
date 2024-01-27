@@ -38,6 +38,11 @@ __Read and write a lot.__ If you are serious about your writing you should do ju
 
 __Close the door.__ Make the time and the space to properly dive into the writing process. Also, use that isolation to feel comfortable with your writing. First drafts should be freeform. Criticism and edits come later.
 
+<div class="img_full">
+    <img style="width: 100%;" src="/assets/img/posts/2024-01-27-stephen-king-on-writing/2b.png">
+    <figcaption>Midjourney prompt: a scientist writing, stephen king world --ar 16:9 --style kMPjAdX5Yga9MPjw</figcaption>
+</div>
+
 __Find your Ideal Reader.__ Always keep in mind who is going to read your text, who you are writing for, your IR. Don't waste their time and focus on their reading experience. One way to do this is to treat yourself as the first reader of your writing. Be clear about what you yourself like and dislike when reading. Be critical and question your own assumptions about what is important to include in the text.  Have colleagues that will give your their honest opinion about your draft. Of course, depending on the type of writing you are doing, your IR will change. They will be a very different person if you are writing a journal publication, an article accessible to the general public, or a blog post.
 
 __Be personal.__ King spends the first part of the book recounting how he became a writer, explaining where he is coming from, and giving context to his thoughts on the writing process. This not only makes for a more engaging read but also makes us better understand the arguments behind his advice. So go ahead and draw from your own life experiences, and inject your text with personality. This is of course not a general rule and doesn't apply to all science writing.
@@ -47,7 +52,6 @@ __Write your truth.__ Very different from "write what you know". This is about h
 __Story first.__ King reminds us multiple times that "it's *always* about the story". Everything else is there to support it. Don't get too caught up with the linguistic tools at your disposal. Vocabulary, pacing, dialogue, description---they all should ultimately serve the story.
 
 __Theme.__ This one was one of the topics I spent most time thinking about. King lists his personal deep interests that come up as thematic topics in his work. One example is "the terrible attraction violence sometimes has for fundamentally good people." He advices us to find our own and use "thematic thinking" in our writing. If I had to list some of my own they would be: understanding the hidden geometry behind anything; the interaction between science and art; the philosophy of [personal identity](https://plato.stanford.edu/entries/identity-personal/){:target="_blank"} and [consciousness](https://plato.stanford.edu/entries/consciousness/){:target="_blank"}; and ethical considerations and reflections on the future of human-AI relationship.
-
 
 ## What science storytelling isn't
 
