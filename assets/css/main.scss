@@ -291,7 +291,7 @@
 .text_social_container {
 	padding: 20px 0;
 	text-transform: uppercase;
-	font-family:Roboto;
+	font-family: $font-sans;
 	font-size: 14px;
 	font-weight: 900;
 	display: block;
@@ -814,7 +814,7 @@ strong {
 	padding: 20px;
 	font-family: $font-sans;
 	h1 {
-		font-family: 'Roboto';
+		font-family: $font-sans;
 		font-style: normal;
 		font-weight: 600;
 		font-size: 1.4em;
@@ -825,14 +825,14 @@ strong {
 	}
 	&__content {
 		h1 {
-			font-family: 'Roboto';
+			font-family: $font-sans;
 			font-size: 1.4em;
 			font-weight: 700;
 			margin-top: 50px;
 			margin-bottom: 10px;
 		}
 		h2 {
-			font-size: 1.1em;
+			font-size: 1.4em;
 			font-weight: 700;
 			margin-top: 40px;
 			margin-bottom: 15px;
@@ -981,7 +981,7 @@ img.center {
 			margin-bottom: 10px;
 		}
 		h2 {
-			font-size: 1.1em;
+			font-size: 1.4em;
 			font-weight: 700;
 			margin-top: 25px;
 			margin-bottom: 5px;
@@ -1093,7 +1093,7 @@ img.center {
 	}
 	&__subtitle {
 		display: block;
-		font-family: Roboto;
+		font-family: $font-sans;
 		font-weight: 300;
 		font-size: 16px;
 		line-height: 20px;
@@ -1129,7 +1129,7 @@ img.center {
 		}
 	}
 	&__content {
-		h1, h2, p, code {
+		h1, h2, p, code, ul {
 			display: block;
 			padding: 0 20px;
 			max-width: $width-S;
@@ -1190,15 +1190,15 @@ img.center {
 		// 	//font-style: italic;
 		//   }
 		h1 {
-			font-family: 'Roboto';
+			font-family: $font-sans;
 			font-size: 1.4em;
 			font-weight: 700;
 			margin-top: 50px;
 			margin-bottom: 10px;
 		}
 		h2 {
-			font-family: 'Roboto';
-			font-size: 1.1em;
+			font-family: $font-sans;
+			font-size: 1.4em;
 			font-weight: 700;
 			margin-top: 2em;
 			margin-bottom: 1em;
@@ -1218,15 +1218,14 @@ img.center {
 		ul {
 			font-size: 1em;
 			list-style: circle;
-			margin-left: 30px;
 			margin-top: -10px;
 			margin-bottom: 15px;
 			li {
-				padding: 5px;
-				padding-left: 5px;
-				@media screen and (max-width: $br) {
-					padding: 10px 0 10px 0;
-				}
+				list-style-position: outside;
+				margin-left: 25px;
+				// @media screen and (max-width: $br) {
+				// 	padding: 10px 0 10px 0;
+				// }
 			}
 			@media screen and (max-width: $br) {
 				margin-left: 10px;
@@ -1328,7 +1327,7 @@ img.center {
 }
 
 .header-2 {
-	font-family: Roboto;
+	font-family: $font-sans;
 	font-size: 2em;
 	font-style: normal;
 	font-weight: 600;
@@ -1469,9 +1468,9 @@ figcaption {
 .footnotes {
 	max-width: $width-S;
 	margin: auto;
+	padding-left: 40px;
 	ol {
     	list-style-position: outside;
-    	margin-left: 25px;
 	}
 }
 
@@ -1515,7 +1514,7 @@ figcaption {
 		margin-bottom: 20px;
 		h1 {
 			display: inline-block;
-			font-family: 'Roboto';
+			font-family: $font-sans;
 			font-style: normal;
 			font-weight: 600;
 			font-size: 1.4em;

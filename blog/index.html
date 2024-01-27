@@ -19,8 +19,8 @@ layout: default
         <img src="{{post.image}}">
       </div>
       <div class="blog_item_content">
-        {% if post.blog_category %}
-          <span class="blog_item_content_category">{{ post.blog_category }}</span>
+        {% if post.tags %}
+          <span class="blog_item_content_category">{{ post.tags[0] }}</span>
         {% endif %}
         <span class="blog_item_content_title">{{ post.title }}</span>
         <span class="blog_item_content_description">{{ post.description }}</span>

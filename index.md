@@ -28,7 +28,7 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 		<a href="{{site.categories.blog[0].url}}" class="banner_item_first">
 			<div>
 				<img src="{{site.categories.blog[0].image}}">
-				<div class="banner_category">{{site.categories.blog[0].blog_category}}</div>
+				<div class="banner_category">{{site.categories.blog[0].tags[0]}}</div>
 				<div class="banner_item_first_title">{{site.categories.blog[0].title}}</div>
 				<!-- <div class="banner_item_first_description">{{site.categories.blog[0].description}}</div> -->
 			</div>
@@ -37,7 +37,7 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 			<a href="{{site.categories.blog[1].url}}" class="banner_square_item">
 				<div >
 					<img src="{{site.categories.blog[1].image}}">
-					<div class="banner_category">{{site.categories.blog[1].blog_category}}</div>
+					<div class="banner_category">{{site.categories.blog[1].tags[0]}}</div>
 					<div class="banner_square_item_title">{{site.categories.blog[1].title}}</div>
 				</div>
 			</a>
@@ -45,7 +45,7 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 			<a href="{{site.categories.blog[2].url}}" class="banner_square_item">
 				<div>
 					<img src="{{site.categories.blog[2].image}}">
-					<div class="banner_category">{{site.categories.blog[2].blog_category}}</div>
+					<div class="banner_category">{{site.categories.blog[2].tags[0]}}</div>
 					<div class="banner_square_item_title">{{site.categories.blog[2].title}}</div>
 				</div>
 			</a>
