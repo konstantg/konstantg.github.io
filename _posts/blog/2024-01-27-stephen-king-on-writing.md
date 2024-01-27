@@ -14,7 +14,7 @@ tags: books
     <figcaption></figcaption>
 </div>
 
-I picked up Stephen King's [*On Writing: A Memoir of the Craft*](https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html){:target="_blank"} because I was curious about how storytelling can improve scientific writing. Storytelling is a core characteristic of human nature and culture. Almost every kind of human communication involves stories to a certain degree. So what about the stories that the scientific method holds?
+I picked up Stephen King's [*On Writing: A Memoir of the Craft*](https://stephenking.com/works/nonfiction/on-writing-a-memoir-of-the-craft.html){:target="_blank"} because I was curious about how storytelling can improve scientific writing. Storytelling is a core characteristic of human nature and culture. Almost every kind of human communication involves stories to a certain degree. So what about the stories that science holds?
 
 We shouldn't forget that scientists are writers. Science is as much about writing as it is about research. A scientist is expected to write about their arguments, their findings, and the importance and impact of these findings.
 
@@ -51,6 +51,6 @@ __Theme.__ This one was one of the topics I spent most time thinking about. King
 
 ## What science storytelling isn't
 
-The way that [storytelling](https://doi.org/10.1002/bes2.1650){:target="_blank"} can be incorporated in science communication seems to be an active topic of [discussion](https://doi.org/10.1057/s41599-017-0047-7){:target="_blank"}. TThe aspiring science writer should be wary of the [pitfalls of the storytelling approach](https://www.theguardian.com/commentisfree/2018/jul/20/our-job-as-scientists-is-to-find-the-truth-but-we-must-also-be-storytellers){:target="_blank"}. Storytelling in science is not an excuse to distort results, hide information, and twist the scientific narrative towards promoting a personal point of view.
+The way that [storytelling](https://doi.org/10.1002/bes2.1650){:target="_blank"} can be incorporated in science communication seems to be an active topic of [discussion](https://doi.org/10.1057/s41599-017-0047-7){:target="_blank"}. The aspiring science writer should be wary of the [pitfalls of the storytelling approach](https://www.theguardian.com/commentisfree/2018/jul/20/our-job-as-scientists-is-to-find-the-truth-but-we-must-also-be-storytellers){:target="_blank"}. Storytelling in science is not an excuse to distort results, hide information, and twist the scientific narrative towards promoting a personal point of view.
 
 Let's adapt one of King's quotes that we mentioned above to clarify this. *It's always about the science*. Storytelling is there to support it.
