@@ -4,7 +4,37 @@
 @import "reset";
 @import "config";
 
+/**
+ * Code formatting
+ */
+ pre,
+ code {
+	font-family: $font-mono;
+	// border: 1px solid $color-grey;
+	border-radius: 3px;
+	background-color: $color-grey;
+ }
+ 
+ code {
+	padding: 1px 5px;
+ }
+ 
+ pre {
+	padding: 8px 12px;
+	overflow-x: auto;
+ 
+   > code {
+	 border: 0;
+	 padding-right: 0;
+	 padding-left: 0;
+   }
+ }
 
+.highlight {
+	display: block;
+	max-width: $width-S;
+	margin: auto;
+}
 
 .footer {
 	background-color: black;
@@ -520,6 +550,7 @@ html {
 body {
 	color: $color-black;
 	background: $color-white;
+	line-height: 1.5em;
 	// font-family: Merriweather,Georgia,serif;
 	font-family: $font-sans;
 	font-size: 100%;
@@ -881,29 +912,6 @@ strong {
 				margin: auto;
 			}
 		}
-		code {
-			padding: 3px;
-			font-size: 0.9em;
-			border-radius: 3px;
-			background: $color-grey;
-		}
-		.highlight {
-			margin: 10px;
-			margin-bottom: 15px;
-			padding: 10px;
-			line-height: 1.5;
-			border-radius: 3px;
-			background: $color-black;
-			code {
-				color: $color-code;
-				background: none;
-			}
-		}
-		.codebreak {
-			margin: 15px;
-			border: 0;
-			border-bottom: 1px dashed $color-black;
-		}
 	}
 }
 
@@ -1020,29 +1028,7 @@ img.center {
 				margin: auto;
 			}
 		}
-		code {
-			padding: 3px;
-			font-size: 0.9em;
-			border-radius: 3px;
-			background: $color-grey;
-		}
-		.highlight {
-			margin: 10px;
-			margin-bottom: 15px;
-			padding: 10px;
-			line-height: 1.5;
-			border-radius: 3px;
-			background: $color-black;
-			code {
-				color: $color-code;
-				background: none;
-			}
-		}
-		.codebreak {
-			margin: 15px;
-			border: 0;
-			border-bottom: 1px dashed $color-black;
-		}
+
 	}
 }
 
@@ -1129,7 +1115,7 @@ img.center {
 		}
 	}
 	&__content {
-		h1, h2, p, code, ul {
+		h1, h2, p, ul {
 			display: block;
 			padding: 0 20px;
 			max-width: $width-S;
@@ -1239,31 +1225,7 @@ img.center {
 				margin: auto;
 			}
 		}
-		code {
-			font-family: $font-mono;
-			white-space : pre-wrap !important;
-			padding: 3px;
-			font-size: 0.9em;
-			border-radius: 3px;
-			background: $color-grey;
-		}
-		.highlight {
-			margin: 0px;
-			margin-bottom: 15px;
-			padding: 10px;
-			line-height: 1.5;
-			border-radius: 3px;
-			background: $color-grey;
-			code {
-				// color: $color-code;
-				background: none;
-			}
-		}
-		.codebreak {
-			margin: 15px;
-			border: 0;
-			border-bottom: 1px dashed $color-black;
-		}
+
 	}
 }
 
@@ -1602,29 +1564,6 @@ figcaption {
 				width: 100%;
 				margin: auto;
 			}
-		}
-		code {
-			padding: 3px;
-			font-size: 0.9em;
-			border-radius: 3px;
-			background: $color-grey;
-		}
-		.highlight {
-			margin: 10px;
-			margin-bottom: 15px;
-			padding: 10px;
-			line-height: 1.5;
-			border-radius: 3px;
-			background: $color-black;
-			code {
-				color: $color-code;
-				background: none;
-			}
-		}
-		.codebreak {
-			margin: 15px;
-			border: 0;
-			border-bottom: 1px dashed $color-black;
 		}
 	}
 }
