@@ -118,7 +118,59 @@
 	}
 }
 
+.aside-right {
+    max-width: 300px; /* Set a fixed width for the protruding element */
+	float: right;
+	margin-left: 3em;
+	margin-bottom: 1em;
+	@media screen and (max-width: $width-S) {
+		float: none;
+		margin: auto;
+		max-width: 100%;
+		padding-bottom: 40px;
+	}
+}
+.aside-left {
+    max-width: 300px; /* Set a fixed width for the protruding element */
+	float: left;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	@media screen and (max-width: $width-S) {
+		float: none;
+		margin: auto;
+		max-width: 100%;
+		padding-bottom: 40px;
+	}
+}
 
+/* Media query for screens narrower than 768px */
+// @media (max-width: $br) {
+//     // .container {
+//     //     flex-direction: column; /* Stack elements vertically */
+//     // }
+
+//     .protruding-element {
+//         transform: translateX(0%); /* Reset transformation for narrow screens */
+//         width: 100%; /* Full width for narrow screens */
+//         order: -1; /* Optional: Move the protruding element above the main content */
+//     }
+// }
+
+// .protruding-element {
+//     position: absolute;
+//     right: -50px; /* Adjust as necessary for protrusion */
+//     top: 0;
+//     width: 200px; /* Or any specific width */
+// }
+
+// @media (max-width: $br) {
+//     /* Adjustments for narrower screens */
+//     .aside {
+//         position: static;
+//         margin: 0 auto; /* Center the element */
+//         transform: none; /* Remove protrusion */
+//     }
+// }
 
 .banner {
 	
@@ -1115,7 +1167,7 @@ img.center {
 		}
 	}
 	&__content {
-		h1, h2, p, ul {
+		h1, h2, p, ul, ol {
 			display: block;
 			padding: 0 20px;
 			max-width: $width-S;
@@ -1217,12 +1269,20 @@ img.center {
 				margin-left: 10px;
 			}
 		}
-		img {
-			// margin-top: 10px;
-			// margin-bottom: 10px;
+		ol {
+			font-family: $font-serif;
+			// font-size: 1em;
+			// list-style: circle;
+			margin-top: -10px;
+			margin-bottom: 15px;
+			li {
+				list-style-position: outside;
+				padding-left: 10px;
+				margin-left: 15px;
+				margin-bottom: 10px;
+			}
 			@media screen and (max-width: $br) {
-				width: 100%;
-				margin: auto;
+				margin-left: 10px;
 			}
 		}
 
