@@ -7,4 +7,4 @@ description: Description.
 excerpt: false
 ---
 
-I gave an introductory Midjourney workshop at [Oslotre](https://www.oslotre.no/){:target="_blank"} for early conceptual design.s
+I gave an introductory Midjourney workshop at [Oslotre](https://www.oslotre.no/){:target="_blank"} for early conceptual design.
