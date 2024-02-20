@@ -13,7 +13,7 @@ tags: [experiments, generative ai, ai, midjourney, chatgpt]
     <figcaption></figcaption>
 </div>
 
-My brother shared with me a [TikTok](https://www.tiktok.com/@ai_tools_help/photo/7308047954881809696){:target="_blank"} a couple of months ago. It is supposed to depict what DALL·E, OpenAI's text-to-image model, comes up with when asked for an image of "a Swedish guy" and then gradually increasing the "Swedishness" factor more and more. Ignoring the cultural caricature of IKEA logos and meatballs in Valhalla for a moment, the reason my brother sent this to me is because the second to last image, the one labelled "LET ME SEE THE FINAL FORM", the one just before Anthony Hopkins as Odin, is actually an image of *me*.
+My brother shared a [TikTok](https://www.tiktok.com/@ai_tools_help/photo/7308047954881809696){:target="_blank"} with me a couple of months ago. It is supposed to depict what DALL·E, OpenAI's text-to-image model, comes up with when asked for an image of "a Swedish guy" and then gradually increasing the "Swedishness" factor more and more. Ignoring the cultural caricature of IKEA logos and meatballs in Valhalla for a moment, the reason my brother sent this to me is because the second to last image, the one labelled "LET ME SEE THE FINAL FORM", the one just before Anthony Hopkins as Odin, is actually an image of *me*.
 
 Or at least it looks like me. It definitely passes the "mom test". This is the very scientific test where I show my mother the picture and she says "That is you!" confirming the similarity.
 
