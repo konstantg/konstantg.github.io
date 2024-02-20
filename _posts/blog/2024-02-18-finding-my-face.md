@@ -23,7 +23,7 @@ Currently, language is the main approach. You put the image you have in mind, yo
 
 ## Describing images
 
-Here is one example. ChatGPT 4 gives the following description when prompted with this photo of Pixel, our Irish terrier, and asked about its contents.
+Here is one example. ChatGPT 4 gives the following description when prompted with this photo of Pixel, our Irish terrier, and asked about its content.
 
 <div class="aside-left">
     <img style="width: 100%;" src="/assets/img/posts/2024-02-18-finding-my-face/2.jpg">
@@ -77,7 +77,7 @@ Midjourney's `/imagine` command can also accept an image as input. This influenc
     <figcaption>Let me introduce you to my extended family.</figcaption>
 </div>
 
-Still not my face. More like distant relative likeness. Midjourney uses input images as influence, so there is no hard constraint in place to preserve any part of the image's contents. However, we get to see how Midjourney "views" my face. Where in its latent space of representations it holds my likeness. Which are the closest images to my photo it can generate.
+Still not my face. More like distant relative likeness. Midjourney uses input images as influence, so there is no hard constraint in place to preserve any part of the image's content. However, we get to see how Midjourney "views" my face. Where in its latent space of representations it holds my likeness. Which are the closest images to my photo it can generate.
 
 This is very much affected by the training data and the generalization capability of the AI model. If it has never "seen" my face then it has to interpolate or extrapolate it from its training data. Similar to what the generative adversarial network (GAN) of [thispersondoesnotexist.com](https://thispersondoesnotexist.com/){:target="_blank"} does.
 
