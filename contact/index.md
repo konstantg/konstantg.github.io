@@ -58,11 +58,11 @@ SINTEF, Forskningsveien 1, 0373 Oslo, Norway
 <!-- ## Links -->
 <div class="text_social_container">
 
+  <div class="text_social_item"><a href="https://www.linkedin.com/in/konstantg/" target="_blank">LinkedIn</a></div>
+  <div class="text_social_item"><a href="https://www.instagram.com/konstant.g/" target="_blank">Instagram</a></div>
+  <div class="text_social_item"><a href="https://www.researchgate.net/profile/Konstantinos_Gavriil" target="_blank">ResearchGate</a></div>
   <div class="text_social_item"><a href="https://orcid.org/0000-0002-8000-7899" target="_blank">ORCID</a></div>
   <div class="text_social_item"><a href="https://scholar.google.at/citations?user=1J5z-40AAAAJ" target="_blank">Google Scholar</a></div>
-  <div class="text_social_item"><a href="https://www.linkedin.com/in/konstantg/" target="_blank">LinkedIn</a></div>
-  <div class="text_social_item"><a href="https://www.researchgate.net/profile/Konstantinos_Gavriil" target="_blank">ResearchGate</a></div>
-  <div class="text_social_item"><a href="https://www.instagram.com/konstant.g/" target="_blank">Instagram</a></div>
 </div>
 <!-- <form accept-charset="UTF-8" action="https://formkeep.com/f/exampletoken" method="POST">
   <input type="email" name="email" placeholder="Your Email">
