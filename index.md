@@ -2,11 +2,11 @@
 layout: about
 description: Personal website of Konstantinos Gavriil.
 ---
-<div class="face_container">
-		<img style="width:100%; height:100%; object-fit: cover; display: block; position:relative; bottom: 0;" src="/assets/img/average.png" alt="Portrait" >
-		<img style="width:auto;height:100%;max-height: 260px; display: block; position:absolute; bottom: 0;" src="/assets/img/portrait/portrait2023.png" alt="Portrait" >
-</div>
 
+<div class="face_container">
+        <img style="width:100%; height:auto; display: block; position:relative;" src="/assets/img/portrait/konstantinos_gavriil.jpg" alt="Portrait" >
+        <figcaption>Konstantinos Gavriil</figcaption>
+    </div>
 
 I am a __Research Scientist__ at the [Geometry group](https://www.sintef.no/en/digital/departments-new/applied-mathematics/geometry/){:target="_blank"} of [__SINTEF Digital__](https://www.sintef.no/en/digital/){:target="_blank"} in Oslo, Norway. I am interested in applied geometry, geometry processing, computational design and machine learning.
 
