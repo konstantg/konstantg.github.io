@@ -5,6 +5,7 @@ category: blog
 title: Title
 description: Description.
 image: "/assets/img/posts/2017-08-13-siam-gd-2017/1.jpg"
+image_square: false
 tags: conference
 ---
 

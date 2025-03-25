@@ -5,6 +5,7 @@ category: blog
 title: Finding my face
 description: Experimenting with Midjourney's face generation.
 image: "/assets/img/posts/2024-02-18-finding-my-face/1.jpg"
+image_square: false
 tags: [experiments, generative ai, ai, midjourney, chatgpt]
 ---
 

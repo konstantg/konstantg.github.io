@@ -32,7 +32,11 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 		<div class="banner_right">
 			<a href="{{site.categories.blog[1].url}}" class="banner_square_item">
 				<div >
-					<img src="{{site.categories.blog[1].image}}">
+				    {% if site.categories.blog[1].image_square %}
+						<img src="{{site.categories.blog[1].image_square}}">
+					{% else %}
+						<img src="{{site.categories.blog[1].image}}">
+					{% endif %}
 					<div class="banner_category">{{site.categories.blog[1].tags[0]}}</div>
 					<div class="banner_square_item_title">{{site.categories.blog[1].title}}</div>
 				</div>
@@ -40,7 +44,11 @@ I also enjoy working on problems in computational geometry, and combinatorial op
 
 			<a href="{{site.categories.blog[2].url}}" class="banner_square_item">
 				<div>
-					<img src="{{site.categories.blog[2].image}}">
+					{% if site.categories.blog[2].image_square %}
+						<img src="{{site.categories.blog[2].image_square}}">
+					{% else %}
+						<img src="{{site.categories.blog[2].image}}">
+					{% endif %}
 					<div class="banner_category">{{site.categories.blog[2].tags[0]}}</div>
 					<div class="banner_square_item_title">{{site.categories.blog[2].title}}</div>
 				</div>
