@@ -7,7 +7,7 @@ I am a __Research Scientist__ at the [Geometry group](https://www.sintef.no/en/d
 
 I received my PhD in Technical Mathematics from [TU Wien](https://www.tuwien.ac.at/en/){:target="_blank"} in 2020, at the [Applied Geometry](http://www.geometrie.tuwien.ac.at/geom/fg4/){:target="_blank"} group of the [Institute of Discrete Mathematics and Geometry](http://www.dmg.tuwien.ac.at/){:target="_blank"}, under the supervision of [Helmut Pottmann](https://www.geometrie.tuwien.ac.at/pottmann/){:target="_blank"}. The focus of my PhD research was to develop interactive computational methods for geometry-driven and material-aware architectural design.
 
-During my PhD, I was an ITN Marie Skłodowska-Curie Research Fellow at [Evolute GmbH](https://www.evolute.at/){:target="_blank"}, a software and consulting company known for its applied research in architectural geometry and geometry optimization.
+During my PhD, I was also an ITN Marie Skłodowska-Curie Research Fellow at [Evolute GmbH](https://www.evolute.at/){:target="_blank"}, a software and consulting company known for its applied research in architectural geometry and geometry optimization.
 
 In 2021, I joined SINTEF, where I now lead the EIC-funded project [STACK](https://cordis.europa.eu/project/id/101161085){:target="_blank"}—a collaboration between [SINTEF](https://www.sintef.no/en/){:target="_blank"}, [DTU](https://www.dtu.dk/english/){:target="_blank"}, and [Zaha Hadid Architects](https://www.zaha-hadid.com/){:target="_blank"}—exploring innovative geometry-driven design, optimization, and fabrication methods for dual-configuration stackable freeform structures.
 
