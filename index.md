@@ -9,7 +9,7 @@ I received my PhD in Technical Mathematics from [TU Wien](https://www.tuwien.ac.
 
 During my PhD, I was also an ITN Marie Skłodowska-Curie Research Fellow at [Evolute GmbH](https://www.evolute.at/){:target="_blank"}, a software and consulting company known for its applied research in architectural geometry and geometry optimization.
 
-In 2021, I joined SINTEF, where I now lead the EIC-funded project [STACK](https://cordis.europa.eu/project/id/101161085){:target="_blank"}—a collaboration between [SINTEF](https://www.sintef.no/en/){:target="_blank"}, [DTU](https://www.dtu.dk/english/){:target="_blank"}, and [Zaha Hadid Architects](https://www.zaha-hadid.com/){:target="_blank"}—exploring innovative geometry-driven design, optimization, and fabrication methods for dual-configuration stackable freeform structures.
+In 2021, I joined SINTEF, where I now lead the EIC-funded project [__STACK__](https://cordis.europa.eu/project/id/101161085){:target="_blank"}—a collaboration between [SINTEF](https://www.sintef.no/en/){:target="_blank"}, [DTU](https://www.dtu.dk/english/){:target="_blank"}, and [Zaha Hadid Architects](https://www.zaha-hadid.com/){:target="_blank"}—exploring innovative geometry-driven design, optimization, and fabrication methods for dual-configuration stackable freeform structures.
 
 I also enjoy working on problems in computational geometry, and combinatorial optimization.
 
